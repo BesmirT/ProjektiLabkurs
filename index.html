@@ -9,32 +9,77 @@
   		  	</div>
 
 
-  	<center> <h1> Trip-Tavel</h1></center>
+   <div class="header">Trip Travel </div>
+
   </head>
   <body>
-  	<div class="b">
-  		<p> ky eshte veq </p>
+  
 
   	
-  </div>>
-  
+   <center>
+    <div class="baza">
+       <b>Home </b>|<a href="news.html">News</a>| <a href="about.html">About</a>
+      </div></center>
 
-     <center>
-     	<div class="baza">
-     	 <b>Home </b>|<a href="news.html">News</a>| <a href="about.html">About</a>
-     	</div>
-
-     	<div class="foto1">
-     		<img src="C:\Users\Besmir\Desktop\subpage\FotoperWeb\losangelos.jpg" >
-     		<div class="permbajtja" ><h> LosAngelos </h>
-     		
-     		<div class="permbajtja1">	<p1> <br>Qytet shum i bukur i njohur ne te gjith boten </p1>
-     		</div>
-     	</div>
+     <div class="Contents">
 
      
+        <button id="prew"> -</button>
+
+    
+
+     	<div class="city1">
+        <button>Los Angleos</button>
+     		
+     		</div>
+        <div class="city2"><button>Roma</button>
+        
+        </div>
+        <div class="city3"> <button>Vankuver</button>
+        
+        </div>
+        <div class="city4"><button>London</button>
+        
+        </div>
+         <button id="next"> +</button>
+
+     	</div>
+     </div>
+     <script type="text/javascript">
+      
+      const class_byname=document.getElementById('city1','city2','city3','city4');
+
+
+      const next=document.getElementById('next');
+
+      const prew=document.getElementById('prew');
+      const classs=['city1','city2','city3','city4'];
+
+      let i =class_byname.length;
+
+      next.onclik=()=>{
+        i=(i<class_byname.length)?(i=i+1):(i=1);
+
+        Contents.innerHtml=("city1" +class_byname[i+1])+">";
+
+      }
+         prew.onclik=()=>{
+        i=(i<class_byname.length+&&i>1)?(i=i-1):(i=class_byname);
+
+        Contents.innerHtml=("city1" +class_byname[i+1])+">";
+
+      }
+
+       
+
+
+
+
+     </script>
+      
+</body>
+     
   
-     	 <p>  </p> 
-     </center>
-  </body>
+     
+
   </html>
