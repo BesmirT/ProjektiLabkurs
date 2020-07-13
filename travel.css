@@ -1,5 +1,9 @@
 
 
+.bacgroundi{
+	background-color: orange;
+}
+
 .header{
 
 
@@ -14,36 +18,35 @@
 .baza{
 
 
-	font-size: 30px;
+	font-size: 30px;	
 }
 .Contents {
 
 	border: 1px solid green;
-	height: 400px;
-	width: 100%;
-	display: inline-flex;
+	height: 500px;
+
 
 	margin-top: 20px;
+	background-color: orange;
+
 	
 }
 
-}
-.foto1
-{
-	float: right;
-}
+
 .city1
 {
 
 	  border: 1px solid red;
-	  width: 350px;
+	  width: 300px;
 	  height: 350px;
 	color: red;
 	font-size: 150%;
-	margin-right: 30px;
-	background-image: url(FotoperWeb/losangelos.jpg);
-	margin-left: 20px;
 
+	background-image: url(FotoperWeb/losangelos.jpg);
+
+
+	
+ 
 }
 .city1 button {
 
@@ -55,12 +58,15 @@
 {
 
 	  border: 1px solid red;
-	width: 350px;
+	width: 300px;
 	  height: 350px;
 	color: red;
 	font-size: 150%;
-	margin-right: 10px;
+	
 	background-image: url(FotoperWeb/roma.jpg);
+margin-right: 20px;
+margin-left: 10px;
+  
 
 }
 
@@ -75,13 +81,16 @@
 {
 
 	  border: 1px solid red;
-	  width: 350px;
+	  width: 300px;
 	  height: 350px;
 	color: red;
 	font-size: 150%;
-	margin-right: 10px;
+
 	background-image: url(FotoperWeb/vankuver.jpg);
 	background-position: center;
+	margin-left: 10px;
+
+  
 
 }
 .city3 button {
@@ -95,12 +104,14 @@
 {
 
 	  border: 1px solid red;
-	 width: 350px;
+	 width: 300px;
 	  height: 350px;
 	color: red;
 	font-size: 150%;
-	margin-right: 10px;
+
 	background-image: url(FotoperWeb/london.jpg);
+
+  
 
 }
 .city4 button {
@@ -111,12 +122,19 @@
 }
 
 
-#next{
-	float: right;
-}
-#prew{
-	float: left;
-}
+.Contents .slick-next{
+	font-size: 20px;
+border-radius: 20px;
 
+margin-top: 30px;
+margin-left: 600px;
 
+}
+.Contents .slick-prev{
+	font-size: 20px;
+	border-radius: 20px;
+	margin-left: 600px;
+	margin-top: 10px;
+
+}
 

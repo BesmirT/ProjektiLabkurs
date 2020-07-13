@@ -5,7 +5,10 @@
   <head>
   	<title>  Trip-Travel - Home </title>
   	<link href="travel.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+
   	<div class="bacgroundi">
+
   		  	</div>
 
 
@@ -24,7 +27,7 @@
      <div class="Contents">
 
      
-        <button id="prew"> -</button>
+
 
     
 
@@ -41,41 +44,40 @@
         <div class="city4"><button>London</button>
         
         </div>
-         <button id="next"> +</button>
+     
 
-     	</div>
+    
      </div>
-     <script type="text/javascript">
-      
-      const class_byname=document.getElementById('city1','city2','city3','city4');
 
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script> 
 
-      const next=document.getElementById('next');
+<script type="text/javascript">
+$('.Contents').slick({
+  slidesToShow: 3,
 
-      const prew=document.getElementById('prew');
-      const classs=['city1','city2','city3','city4'];
+  slidesToScroll: 1
+  
+ 
 
-      let i =class_byname.length;
+});
 
-      next.onclik=()=>{
-        i=(i<class_byname.length)?(i=i+1):(i=1);
+var filtered = false;
 
-        Contents.innerHtml=("city1" +class_byname[i+1])+">";
+$('.js-filter').on('click', function(){
+  if (filtered === false) {
+    $('.filtering').slick('slickFilter',':even');
+    $(this).text('Unfilter Slides');
+    filtered = true;
+  } else {
+    $('.filtering').slick('slickUnfilter');
+    $(this).text('Filter Slides');
+    filtered = false;
+  }
+});
 
-      }
-         prew.onclik=()=>{
-        i=(i<class_byname.length+&&i>1)?(i=i-1):(i=class_byname);
+</script>
 
-        Contents.innerHtml=("city1" +class_byname[i+1])+">";
-
-      }
-
-       
-
-
-
-
-     </script>
       
 </body>
      
