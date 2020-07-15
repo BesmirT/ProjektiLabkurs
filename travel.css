@@ -20,13 +20,45 @@
 
 	font-size: 30px;	
 }
+
+.most{
+
+
+	border: 1px red solid;
+	height: 160px;
+
+}
+
+.most1{
+
+	border: 1px solid red;
+	height: 90px; 
+	width: 60px;
+}
+.most2{
+
+	border: 1px solid red;
+	height: 90px; 
+	width: 60px;
+}
+.most3{
+
+	border: 1px solid red;
+	height: 90px; 
+	width: 60px;
+}
+.most4{
+
+	border: 1px solid red;
+	height: 90px; 
+	width: 60px;
+}
 .Contents {
 
 	border: 1px solid green;
 	height: 500px;
 
 
-	margin-top: 20px;
 	background-color: orange;
 
 	
@@ -64,9 +96,9 @@
 	font-size: 150%;
 	
 	background-image: url(FotoperWeb/roma.jpg);
-margin-right: 20px;
-margin-left: 10px;
-  
+	margin-right: 20px;
+	margin-left: 10px;
+  	
 
 }
 

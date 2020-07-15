@@ -13,7 +13,7 @@
 
 
    <div class="header">Trip Travel </div>
-   <div> hehhe </div>
+
    
 
   </head>
@@ -22,9 +22,30 @@
 
   	
    <center>
+
+    <ul>
+      <li> Continent 
+        <ul>
+           <li> Europa </li>
+            <li> Amerika </li>
+             <li> Azia </li>
+          <li> Afrika </li>
+              <li> Australia </li>
+                <li> Antarctica </li>
+        </li>
     <div class="baza">
        <b>Home </b>|<a href="news.html">News</a>| <a href="about.html">About</a>
       </div></center>
+
+
+
+      <div class="most"> Most palce visit
+        <div class="most1"> Ujvara Nigares</div>
+            <div class="most2"> Deti Jon</div>
+                <div class="most3"> Trekendshi bermundes</div>
+                    <div class="most4"> Piramidat</div>
+
+      </div>
 
      <div class="Contents">
 
@@ -54,29 +75,26 @@
      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script> 
 
+
+
+
+
+
 <script type="text/javascript">
 $('.Contents').slick({
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 9000,
+});
+
+$('.most').slick({
   slidesToShow: 3,
 
-  slidesToScroll: 1
-  
- 
-
+  autoplay: true,
+  autoplaySpeed: 9000,
 });
 
-var filtered = false;
-
-$('.js-filter').on('click', function(){
-  if (filtered === false) {
-    $('.filtering').slick('slickFilter',':even');
-    $(this).text('Unfilter Slides');
-    filtered = true;
-  } else {
-    $('.filtering').slick('slickUnfilter');
-    $(this).text('Filter Slides');
-    filtered = false;
-  }
-});
 
 </script>
 
