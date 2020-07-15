@@ -1,20 +1,131 @@
 
 
+.search{
+	background-image: url(FotoperWeb/search.jpg);
+
+	border: 1px grey solid;
+	height: 450px;
+	width: 442px;
+	background-position: center;
+
+}
+
+.f1{
+
+	background-image: url(FotoperWeb/f1.jpg);
+
+	border: 1px grey solid;
+	height: 450px;
+	width: 442px;
+	background-position: center
+
+
+}
+
+.f2{
+
+		background-image: url(FotoperWeb/f2.jpg);
+
+	border: 1px grey solid;
+	height: 450px;
+	width: 442px;
+	background-position: center
+
+}
+
+.Pershkrimi{
+
+	border: 1px grey solid;
+	height: 450px;
+	display: flex;
+	
+	
+		
+}
 .bacgroundi{
 	background-color: orange;
+}
+
+.continent{
+
+	border: 1px red solid;
+	height: 150px;
+	width: 100%;
+		background-image: url(FotoperWeb/tt.jpg) ;
+			background-repeat: no-repeat;
+			background-size: 100%;
+}
+
+.continent ul ul{
+
+	display: none;
+	border: 1px white solid;
+
+}
+
+.continent ul ul li:hover{
+
+	background-color: orange;
+
+}
+
+.continent ul li:hover > ul{
+
+	display: block;
+}
+
+
+.menu{
+
+	margin-left: 160px;
+
+}
+
+
+
+.continent ul li {
+
+
+float: left;
+	 
+
+
+	background-color: #8E44AD;
+	border: 1px solid white;
+     line-height: 30px;
+     font-size: 20px;
+     text-align: center;
+     color: white;
+     height: 30px;
+     width: 150px;
+}
+
+
+
+.continent ul {
+	list-style: none;
+}
+
+
+ul li:hover{
+	background-color: #85C1E9;
 }
 
 .header{
 
 
 	border: 1px solid red;
-	width: 300px;
-	height: 60px;
-	font-size: 45px;
-	color: green;
-	margin-left: 500px;
-	padding-left: 90px;
+	
+
+height: 200px;
+	
+	background-image: url(FotoperWeb/qadra.jpg) ;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: right;
+	
 }
+
 .baza{
 
 
