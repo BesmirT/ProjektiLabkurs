@@ -28,7 +28,7 @@
         <ul>
            <li> Europa        
               <ul>
-            <li> <a href="Germany.html">Germany  </a></li>
+            <li> <a href="Germany.php">Germany  </a></li>
             <li>Switzerland</li>
                 <li>Austri</li>
            </ul>  
@@ -45,11 +45,11 @@
                 <li> Antarctica </li>
         </li>
       </ul>
-      
+
     </div><div class="contact">
         <ul>
           <li>About</li>
-          <li>Contact us</li>
+          <li><a href="addusers.php">Contact us</a></li>
         </ul>
 
 
