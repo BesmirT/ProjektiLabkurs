@@ -1,17 +1,28 @@
 
 
-<?php
-    require 'contact.php';
+
+<?php 
 
 
-    ?>
+include 'contact.php';
+
+
+
+
+?>
+
+
   <?php 
+
+
         if(isset($_POST['submit'])){
             $name = $_POST['name'];
             $email = $_POST['email'];
             $password = $_POST['password'];
 			
             $sql = 'INSERT INTO people (name, email, password) VALUES (:name, :email, :password)';
+
+
             $query = $pdo->prepare($sql);
             $query->bindParam('name', $name);
             $query->bindParam('email', $email);
@@ -31,16 +42,30 @@
         }
     ?>
 
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>Signupi</title>
+    </head>
+    <body>
+    
+    </body>
+    </html>
+
     <div class="mt-2">
         <div class="container">
-            <form action="" method="post">
+            <form action="contact.php" method="POST">
                 <input type="text" name="name" placeholder="Enter your name"><br>
                 <input type="text" name="email" placeholder="Enter your email"><br>
                 <input type="password" name="password" placeholder="Enter your password"><br>
-                <input type="submit" name="submit" value="Submit">
+
+                <input type="submit" name="submit" value="Sign up">
             </form>
         </div>
 
-        <button> <a href="showuser.php">show users</a></button>
+  
+   
     </div>
+
+
 

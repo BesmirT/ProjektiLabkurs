@@ -49,7 +49,7 @@
     </div><div class="contact">
         <ul>
           <li>About</li>
-          <li><a href="addusers.php">Contact us</a></li>
+          <li><a href="contact.php">Contact us</a></li>
         </ul>
 
 
