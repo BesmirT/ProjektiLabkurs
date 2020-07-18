@@ -13,15 +13,31 @@ include 'contact.php';
 
 
   <?php 
+			
+      
 
 
-        if(isset($_POST['submit'])){
-            $name = $_POST['name'];
+           if(isset($_POST['submit'])){  
+
+
+
+
+      
+       if(empty($_POST["name"]) || empty($_POST["email"]) || empty($_POST["password"])){
+
+            echo "data missign";
+
+
+        }
+
+       else{    
+             $name = $_POST['name'];
             $email = $_POST['email'];
             $password = $_POST['password'];
-			
-            $sql = 'INSERT INTO people (name, email, password) VALUES (:name, :email, :password)';
 
+            $sql = 'INSERT INTO people (name, email, password) VALUES (:name, :email, :password)';
+        
+        
 
             $query = $pdo->prepare($sql);
             $query->bindParam('name', $name);
@@ -29,23 +45,26 @@ include 'contact.php';
             $query->bindParam('password', $password);
 			
             $query->execute();
-			
-			//Poashtu mundemi mos mi bo bind parametrat dhe tek metoda execute e bonja pass nje array
-			//dhe e ka efektin e njejt
-			/*$query->execute([
-				'name' => $name,
-				'email' => $email,
-				'password' => $password,
-			]);*/
+		
 			
             header("Location: index.php");
-        }
+        
+
+
+}
+
+}  
+    
     ?>
+
+
 
     <!DOCTYPE html>
     <html>
     <head>
         <title>Signupi</title>
+
+
     </head>
     <body>
     
@@ -61,7 +80,11 @@ include 'contact.php';
 
                 <input type="submit" name="submit" value="Sign up">
             </form>
+
+            <button><a href="index.php">Go to home </a></button>
         </div>
+
+
 
   
    

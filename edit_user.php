@@ -13,7 +13,7 @@
 	
 	if(isset($_POST['submit'])){
         $name = $_POST['name'];
-        $email = $_POST['email'];
+        $email = $_POST['email'];   
         $password=$_POST['password'];
 
    $sql = 'UPDATE people SET name = :name, email = :email, password=:password WHERE id = :id ';
@@ -25,13 +25,7 @@
 
         $query->execute();
 		
-		//Poashtu mundemi mos mi bo bind parametrat dhe tek metoda execute e bonja pass nje array
-		//dhe e ka efektin e njejt
-		/*$query->execute([
-			'name' => $name,
-			'email' => $email,
-			'id' => $id,
-		]);*/
+	
 		
         header("Location: addusers.php");
     }

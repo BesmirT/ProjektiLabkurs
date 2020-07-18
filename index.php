@@ -13,7 +13,7 @@
 
 
    <div class="header">
-
+<button><a href="loguot.php">Log out </a></button>
   
    
 
@@ -62,6 +62,7 @@
     <div class="f1"> 
     <h1>Best Choice for search a place to visit its This Page</h1></div>
     <div class="f2"> <h1>Look to menu and dropdown menu </h1></div>
+
 
 
 

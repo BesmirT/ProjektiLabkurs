@@ -12,3 +12,6 @@
 
 
     header("Location: showuser.php");
+
+
+    ?>

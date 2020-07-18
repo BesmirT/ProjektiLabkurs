@@ -24,7 +24,8 @@ try{
     if(isset($_POST["login"])){
 
     	if(empty($_POST["username"])	||	empty($_POST["password"])){
-    		$messages='<label>All fileds are required</label>';
+    		$messages='<label>"All fileds are required"</label>';
+
 
     	}
 
@@ -43,12 +44,14 @@ try{
     				'password' => $_POST["password"]
 
 
+
     			)
 
     		);
 
     		$count=$statement->rowCount();
-    		if($count>0)
+
+    		if($count<=1)
     		{
     			$_SESSION["username"]=$_POST["username"];
 
@@ -58,6 +61,7 @@ try{
     		else{
 
     			$message= '<label> Wrong data </label>';
+             
     		}
     	}
     }
@@ -100,7 +104,9 @@ catch(PDOException $error){
 <input type="password" name="password" placeholder="passsword"><br>
 
 <input type="submit" name="login" class="button" value="Login">
- <button> <a href="showuser.php">show users</a></button>
+
+<button><a href="index.php">Back Home</a></button>
+
 
 
    <h1> You dont have account Please Sign up <button><a href="addusers.php">Sign up </a></button> </h1>
