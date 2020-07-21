@@ -18,6 +18,7 @@
             <li> <a href="index.php">Back to home  </a></li>
             <li>Switzerland</li>
                 <li>Austri</li>
+                <li>Sloveni </li>
            </ul>  
          </li>
 
