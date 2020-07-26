@@ -8,6 +8,12 @@
 	width: 442px;
 	background-position: center;
 
+
+}
+.search h1{
+
+
+
 }
 
 .f1{
@@ -110,14 +116,26 @@ float: left;
 ul li:hover{
 	background-color: #85C1E9;
 }
+.contact
+{
+	
+	width: 200px;
+	height: 100px;
+	float: right;
+	margin-top: 20px;
+}
 
+.contact ul li
+{
+	display: inline-block;
+}
 .header{
 
 
 	border: 1px solid red;
 	
 
-height: 200px;
+	height: 200px;
 	
 	background-image: url(FotoperWeb/qadra.jpg) ;
 	background-repeat: no-repeat;
@@ -132,42 +150,97 @@ height: 200px;
 	font-size: 30px;	
 }
 
-.most{
+
+
+.berlin{
 
 
 	border: 1px red solid;
-	height: 160px;
+	width: 40px;
+
+	height: 435px;
+	background-image: url("FotoperWeb/berlin.jpg");
+	background-size: 100%;
+	
+	border-radius: 8px;
+		box-shadow: 3px 4px 5px;
 
 }
 
-.most1{
+.berlin button{
+	font-size: 20px;
+	margin-left: 160px;
+	margin-top: 60;
+	border-radius: 10px;
 
-	border: 1px solid red;
-	height: 90px; 
-	width: 60px;
-}
-.most2{
 
-	border: 1px solid red;
-	height: 90px; 
-	width: 60px;
 }
-.most3{
+.bermen{
 
-	border: 1px solid red;
-	height: 90px; 
-	width: 60px;
-}
-.most4{
 
-	border: 1px solid red;
-	height: 90px; 
-	width: 60px;
+	border: 1px red solid;
+	height: 435px;
+	background-image: url("FotoperWeb/bermen.jpg");
+	background-size: 100%;
+
+	border-radius: 10px;
+		box-shadow: 3px 4px 5px;
+
 }
+
+.bermen button{
+	font-size: 20px;
+	margin-left: 160px;
+	margin-top: 60;
+	border-radius: 10px;
+
+
+}
+.hamburg{
+
+
+	border: 1px red solid;
+	height: 435px;
+	background-image: url("FotoperWeb/hamburg.jpg");
+	background-size: 100%;
+		border-radius: 10px;
+			box-shadow: 3px 4px 5px;
+	}
+.hamburg button{
+	font-size: 20px;
+	margin-left: 160px;
+	margin-top: 60;
+	border-radius: 10px;
+
+
+}
+.dortmund{
+
+
+	border: 1px red solid;
+	height: 435px;
+	background-image: url("FotoperWeb/dortmund.jpg");
+	background-size: 100%;
+
+	border-radius: 10px;
+	box-shadow: 3px 4px 5px;
+}
+
+.dortmund button{
+	font-size: 20px;
+	margin-left: 160px;
+	margin-top: 60;
+	border-radius: 10px;
+
+
+}
+
+
+
 .Contents {
 
 	border: 1px solid green;
-	height: 500px;
+	height: 600px;
 
 
 	background-color: orange;
@@ -181,9 +254,10 @@ height: 200px;
 
 	  border: 1px solid red;
 	  width: 300px;
-	  height: 350px;
+	  height: 400px;
 	color: red;
 	font-size: 150%;
+	background-size: 100%;
 
 	background-image: url(FotoperWeb/losangelos.jpg);
 
@@ -202,7 +276,7 @@ height: 200px;
 
 	  border: 1px solid red;
 	width: 300px;
-	  height: 350px;
+	  height: 400px;
 	color: red;
 	font-size: 150%;
 	
@@ -225,7 +299,7 @@ height: 200px;
 
 	  border: 1px solid red;
 	  width: 300px;
-	  height: 350px;
+	  height: 400px;
 	color: red;
 	font-size: 150%;
 
@@ -248,7 +322,7 @@ height: 200px;
 
 	  border: 1px solid red;
 	 width: 300px;
-	  height: 350px;
+	  height: 400px;
 	color: red;
 	font-size: 150%;
 
@@ -265,19 +339,19 @@ height: 200px;
 }
 
 
-.Contents .slick-next{
+.most .slick-next{
 	font-size: 20px;
 border-radius: 20px;
 
-margin-top: 30px;
-margin-left: 600px;
+margin-left: 640px;
+margin-top: -20px;
 
 }
-.Contents .slick-prev{
+.most .slick-prev{
 	font-size: 20px;
 	border-radius: 20px;
-	margin-left: 600px;
-	margin-top: 10px;
+	margin-left: 610px;
+	
 
 }
 
@@ -303,15 +377,58 @@ margin-left: 600px;
 
 }
 
-h1{
+.search h1{
+
+border: 1px green solid;
+width: 200px;
+height: 160px;
+float: right;
+margin-top: 150px;
+
+border-radius: 10px;
+box-shadow: 2px 3px 4px;
+color: white;
+margin-left: 40px;
+color: black;
+margin-right: 30px;
+color: green;
+
+
+
+
+
+
+}
+
+.f1 h1{
+
+border: 1px blue solid;
+width: 400px;
+height: 100px;
+float: right;
+margin-top: 260px;
+
+border-radius: 10px;
+box-shadow: 2px 3px 4px;
+color: white;
+margin-right: 20px;
+
+	
+
+
+}
+
+.f2 h1{
 
 border: 1px blue solid;
 float: right;
-margin-top: 260px;
+margin-top: 160px;
 margin-right: 200px;
 border-radius: 10px;
 box-shadow: 2px 3px 4px;
 color: white;
+margin-left: 40px;
+color: black;
 
 
 
@@ -405,6 +522,12 @@ h2 button {
 
 
 
+}
+
+.aall{
+
+	border:1px blue solid;
+	height:  800px;
 }
 input {
 	margin: 20px 0;

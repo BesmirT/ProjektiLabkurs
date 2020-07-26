@@ -13,7 +13,7 @@
 
 
    <div class="header">
-<button><a href="loguot.php">Log out </a></button>
+
   
    
 
@@ -45,12 +45,15 @@
                 <li> Antarctica </li>
         </li>
       </ul>
-
-    </div><div class="contact">
+  <div class="contact">
         <ul>
           <li>About</li>
           <li><a href="contact.php">Contact us</a></li>
+          <li><a href="logout.php">Log out</a></li>
         </ul>
+      </div>
+    </div>
+
 
 
   <div class="Pershkrimi">
