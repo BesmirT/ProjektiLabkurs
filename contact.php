@@ -6,19 +6,8 @@
 
 
 
-session_start();
-
-$host="localhost";
-$username="root";
-$password="";
-$database="labkurs";
-$message="";	
-
-try{
-    $pdo = new PDO("mysql:host=localhost;dbname=labkurs", "root" , "");
-
+include "dbcon.php";
    
-    echo "database connect";    
 
 
     if(isset($_POST["login"])){
@@ -65,7 +54,6 @@ try{
     		}
     	}
     }
-}
 
 
 
@@ -73,18 +61,22 @@ try{
 
 
 
-catch(PDOException $error){
-    die("Unsuccessful connection");
-    echo "database not connect";
-}
+
+
 ?>
 
 <!DOCTYPE html>
 <html>
+<link rel="stylesheet" type="text/css" href="travel.css">
 <head>
 	<title>contact</title>
 </head>
-<body>
+<body> 
+
+    <div class="all">
+
+
+    <div class="cont">
 
 	<?php
 
@@ -105,11 +97,19 @@ catch(PDOException $error){
 
 <input type="submit" name="login" class="button" value="Login">
 
-<button><a href="index.php">Back Home</a></button>
+</form>
+</div>
+  <div class="contbutton">
+<button><a style="text-decoration:none"href="index.php">Back Home</a></button>
+</div>
 
 
 
-   <h1> You dont have account Please Sign up <button><a href="addusers.php">Sign up </a></button> </h1>
+   <h1> You dont have account Please Sign up <button><a style="text-decoration:none" href="addusers.php">Sign up </a></button> </h1>
+</div>
+
+
+
 
 
 </body>
