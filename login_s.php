@@ -29,7 +29,17 @@
 
 
 	?>
-	<html>
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" type="text/css" href="travel.css">
+<head>
+	<title></title>
+</head>
+<body>
+
+</body>
+</html>
+
 
 
 <script >
@@ -38,10 +48,11 @@
 
 </script>
 
-
+ <div class="login">
 
 <button><a href="index.php">Go to  Home page </a></button>
 	<button><a href="showuser.php">Show user Delete or Edit</a> </button>
+</div>
 
 
 

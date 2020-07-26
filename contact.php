@@ -10,52 +10,73 @@ include "dbcon.php";
    
 
 
-    if(isset($_POST["login"])){
+     if(isset($_POST["login"])){
 
-    	if(empty($_POST["username"])	||	empty($_POST["password"])){
-    		$messages='<label>"All fileds are required"</label>';
-
-
-    	}
+        if(empty($_POST["username"])    ||  empty($_POST["password"])){
+        echo "Name or password its empty";
 
 
-    	else {
+        }
 
 
-    		$query="SELECT * FROM people WHERE name=:username AND password=:password";
-    		$statement=$pdo->prepare($query);
-    		$statement->execute(
+        else {
 
 
-    			array(
+            $query="SELECT * FROM people WHERE name=:username AND password=:password";
 
-    				'username' => $_POST["username"],
-    				'password' => $_POST["password"]
+            $statement=$pdo->prepare($query);
+            $statement->execute(
+
+
+                array(
+
+                    'username' => $_POST["username"],
+                    'password' => $_POST["password"],
+                   
+
+
+                )
+
+            );
+
+            $count=$statement->rowCount();
+
+            if($count>0)
+            {
+                $_SESSION["username"]=$_POST["username"];
 
 
 
-    			)
+                  if(empty($_POST["access"]=="admin") || empty($_POST["username"]=="admin") ){
 
-    		);
+                        echo "<h1>You are user you not acces to data <h1>";
+                    }
+                    else{
 
-    		$count=$statement->rowCount();
 
-    		if($count<=1)
-    		{
-    			$_SESSION["username"]=$_POST["username"];
+                header("location:login_s.php");
+            }
 
-    			header("location:login_s.php");
-    		}
 
-    		else{
 
-    			$message= '<label> Wrong data </label>';
+            if(empty($_POST["access"]=="user") ){ 
+
+           
+            }
+            else {
+                   header("location:puser.php");
+
+            }
+            
+            }
+
+            else{
+
+              echo "wrong data or not register ";
              
-    		}
-    	}
+            }
+        }
     }
-
-
 
 
 
@@ -92,6 +113,7 @@ include "dbcon.php";
 	<form  method="POST"> 
 
 <input type="text" name="username" placeholder="name"> <br>
+<input type="text" name="access" placeholder="access"> <br>
 
 <input type="password" name="password" placeholder="passsword"><br>
 

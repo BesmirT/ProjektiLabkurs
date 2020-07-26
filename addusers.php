@@ -9,11 +9,8 @@ include 'dbcon.php';
 
 
 
-?>
-
-
-  <?php 
-			
+?>  <?php 
+      
       
 
 
@@ -28,9 +25,13 @@ include 'dbcon.php';
             echo "data missign";
 
 
+
+
         }
+         
 
        else{    
+
              $name = $_POST['name'];
             $email = $_POST['email'];
             $password = $_POST['password'];
@@ -40,14 +41,19 @@ include 'dbcon.php';
         
 
             $query = $pdo->prepare($sql);
+
             $query->bindParam('name', $name);
             $query->bindParam('email', $email);
             $query->bindParam('password', $password);
-			
+
+                 echo"data insertted";
+      
             $query->execute();
-		
-			
-            header("Location: index.php");
+    
+      
+            header("Location:index.php");
+
+
         
 
 
@@ -56,6 +62,9 @@ include 'dbcon.php';
 }  
     
     ?>
+
+
+
 
 
 
@@ -74,7 +83,7 @@ include 'dbcon.php';
 
     <div class="all1">
         <div class="cont1">
-            <form action="contact.php" method="POST">
+            <form action="" method="POST">
                 <input type="text" name="name" placeholder="Enter your name"><br>
                 <input type="text" name="email" placeholder="Enter your email"><br>
                 <input type="password" name="password" placeholder="Enter your password"><br>
