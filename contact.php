@@ -126,8 +126,9 @@ include "dbcon.php";
 </div>
 
 
-
-   <h1> You dont have account Please Sign up <button><a style="text-decoration:none" href="addusers.php">Sign up </a></button> </h1>
+<div class="h1">
+   <h1> You dont have account Please Sign up <button><a style="text-decoration:none" href="addusers.php">Sign up </a></button> </h1> 
+</div>
 </div>
 
 

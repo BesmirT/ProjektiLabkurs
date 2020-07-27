@@ -28,9 +28,10 @@
         <ul>
            <li> Europa        
               <ul>
-            <li> <a href="Germany.php">Germany  </a></li>
-            <li>Switzerland</li>
-                <li>Austri</li>
+            <li> <a style="text-decoration:none"href="Germany.php">Germany  </a></li>
+            <li><a style="text-decoration:none"href="switzerland.php">Switzerland </a></li>
+                <li><a style="text-decoration:
+                none" href="austri.php" >Austri</li>
            </ul>  
          </li>
 

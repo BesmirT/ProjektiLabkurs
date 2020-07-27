@@ -67,6 +67,7 @@
 	display: none;
 	border: 1px white solid;
 
+
 }
 
 .continent ul ul li:hover{
@@ -104,6 +105,8 @@ float: left;
      color: white;
      height: 30px;
      width: 150px;
+     border-radius: 10px;
+     box-shadow: 2px 4px 4px;
 }
 
 
@@ -168,10 +171,14 @@ ul li:hover{
 }
 
 .berlin button{
-	font-size: 20px;
-	margin-left: 160px;
-	margin-top: 60;
+	font-size: 30px;
+	margin-left: 280px;
+	margin-top: 200;
 	border-radius: 10px;
+	border-radius: 1px black solid;
+	box-shadow: 3px 4px 4px;
+	background-color: grey;
+	color: white;
 
 
 }
@@ -189,10 +196,15 @@ ul li:hover{
 }
 
 .bermen button{
-	font-size: 20px;
-	margin-left: 160px;
-	margin-top: 60;
+	font-size: 30px;
+	margin-left: 280px;
+	margin-top: 200;
 	border-radius: 10px;
+	border-radius: 1px black solid;
+	box-shadow: 3px 4px 4px;
+	background-color: grey;
+	color: white;
+	
 
 
 }
@@ -207,11 +219,14 @@ ul li:hover{
 			box-shadow: 3px 4px 5px;
 	}
 .hamburg button{
-	font-size: 20px;
-	margin-left: 160px;
-	margin-top: 60;
+	font-size: 30px;
+	margin-left: 280px;
+	margin-top: 200;
 	border-radius: 10px;
-
+	border-radius: 1px black solid;
+	box-shadow: 3px 4px 4px;
+	background-color: grey;
+	color: white;
 
 }
 .dortmund{
@@ -227,10 +242,14 @@ ul li:hover{
 }
 
 .dortmund button{
-	font-size: 20px;
-	margin-left: 160px;
-	margin-top: 60;
+font-size: 30px;
+	margin-left: 280px;
+	margin-top: 200;
 	border-radius: 10px;
+	border-radius: 1px black solid;
+	box-shadow: 3px 4px 4px;
+	background-color: grey;
+	color: white;
 
 
 }
@@ -344,7 +363,7 @@ ul li:hover{
 border-radius: 20px;
 
 margin-left: 640px;
-margin-top: -20px;
+
 
 }
 .most .slick-prev{
@@ -414,6 +433,23 @@ color: white;
 margin-right: 20px;
 
 	
+
+
+}
+
+.h1 h1{
+	border: 1px blue solid;
+width: 620px;
+height: 50px;
+float: right;
+margin-top: 260px;
+
+border-radius: 10px;
+box-shadow: 2px 3px 4px;
+color: white;
+margin-right: 160px;
+
+
 
 
 }
@@ -527,7 +563,8 @@ h2 button {
 .aall{
 
 	border:1px blue solid;
-	height:  800px;
+	height:  450px;
+
 }
 input {
 	margin: 20px 0;
@@ -602,3 +639,231 @@ width: 400px;
 	padding: 10px;
 	border-radius: 10px;
 }
+
+
+/*Switzerland*/
+
+
+.bern {
+
+
+
+	border: 1px red solid;
+	height: 435px;
+	background-image: url("FotoperWeb/bern.jpg");
+	background-size: 100%;
+
+	border-radius: 10px;
+	box-shadow: 3px 4px 5px;
+
+}
+.bern button{
+font-size: 30px;
+	margin-left: 280px;
+	margin-top: 200;
+	border-radius: 10px;
+	border-radius: 1px black solid;
+	box-shadow: 3px 4px 4px;
+	background-color: grey;
+	color: white;
+
+
+}
+
+
+.lucern {
+
+
+
+	border: 1px red solid;
+	height: 435px;
+	background-image: url("FotoperWeb/lucern.jpg");
+	background-size: 100%;
+
+	border-radius: 10px;
+	box-shadow: 3px 4px 5px;
+
+}
+.lucern button{
+font-size: 30px;
+	margin-left: 280px;
+	margin-top: 200;
+	border-radius: 10px;
+	border-radius: 1px black solid;
+	box-shadow: 3px 4px 4px;
+	background-color: grey;
+	color: white;
+
+
+}
+
+.lenk {
+
+
+
+	border: 1px red solid;
+	height: 435px;
+	background-image: url("FotoperWeb/lenk.jpg");
+	background-size: 100%;
+
+	border-radius: 10px;
+	box-shadow: 3px 4px 5px;
+
+}
+.lenk button{
+font-size: 30px;
+	margin-left: 280px;
+	margin-top: 200;
+	border-radius: 10px;
+	border-radius: 1px black solid;
+	box-shadow: 3px 4px 4px;
+	background-color: grey;
+	color: white;
+
+
+}
+
+.neuchatel {
+
+
+
+	border: 1px red solid;
+	height: 435px;
+	background-image: url("FotoperWeb/neuchtel.jpg");
+	background-size: 100%;
+
+	border-radius: 10px;
+	box-shadow: 3px 4px 5px;
+
+}
+
+.neuchatel button{
+font-size: 30px;
+	margin-left: 280px;
+	margin-top: 200;
+	border-radius: 10px;
+	border-radius: 1px black solid;
+	box-shadow: 3px 4px 4px;
+	background-color: grey;
+	color: white;
+
+
+}
+
+
+/*austri */
+
+
+
+.vien {
+
+
+
+	border: 1px red solid;
+	height: 435px;
+	background-image: url("FotoperWeb/neuchtel.jpg");
+	background-size: 100%;
+
+	border-radius: 10px;
+	box-shadow: 3px 4px 5px;
+
+}
+
+.vien button{
+font-size: 30px;
+	margin-left: 280px;
+	margin-top: 200;
+	border-radius: 10px;
+	border-radius: 1px black solid;
+	box-shadow: 3px 4px 4px;
+	background-color: grey;
+	color: white;
+
+
+}
+
+
+.salzburg {
+
+
+
+	border: 1px red solid;
+	height: 435px;
+	background-image: url("FotoperWeb/neuchtel.jpg");
+	background-size: 100%;
+
+	border-radius: 10px;
+	box-shadow: 3px 4px 5px;
+
+}
+
+.salzburg button{
+font-size: 30px;
+	margin-left: 280px;
+	margin-top: 200;
+	border-radius: 10px;
+	border-radius: 1px black solid;
+	box-shadow: 3px 4px 4px;
+	background-color: grey;
+	color: white;
+
+
+}
+.hallstatt {
+
+
+
+	border: 1px red solid;
+	height: 435px;
+	background-image: url("FotoperWeb/neuchtel.jpg");
+	background-size: 100%;
+
+	border-radius: 10px;
+	box-shadow: 3px 4px 5px;
+
+}
+
+.hallstatt button{
+font-size: 30px;
+	margin-left: 280px;
+	margin-top: 200;
+	border-radius: 10px;
+	border-radius: 1px black solid;
+	box-shadow: 3px 4px 4px;
+	background-color: grey;
+	color: white;
+
+
+}
+
+.innsbruck {
+
+
+
+	border: 1px red solid;
+	height: 435px;
+	background-image: url("FotoperWeb/neuchtel.jpg");
+	background-size: 100%;
+
+	border-radius: 10px;
+	box-shadow: 3px 4px 5px;
+
+
+}
+
+.innsbruck button{
+font-size: 30px;
+	margin-left: 280px;
+	margin-top: 200;
+	border-radius: 10px;
+	border-radius: 1px black solid;
+	box-shadow: 3px 4px 4px;
+	background-color: grey;
+	color: white;
+
+}
+
+
+
+
+
