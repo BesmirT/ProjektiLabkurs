@@ -1,3 +1,4 @@
+ 
 
 <link rel="stylesheet" type="text/css" href="travel.css">
  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
@@ -15,20 +16,12 @@
         <ul>
            <li> Europa        
               <ul>
-<<<<<<< HEAD
-            <li> <a href="index.php">Back to home  </a></li>
-            <li>Switzerland</li>
-                <li>Austri</li>
-                <li>Sloveni </li>
-   
-=======
             <li> <a style="text-decoration:none"href="index.php">Back to home  </a></li>
-            <li><a  style="text-decoration:none"
-              href="switzerland.php">Switzerland </a></li>
-                <li><a style="text-decoration:none"href="austri.php">Austri</a></li>
+            <li><a style="text-decoration:none"href="switzerland.php">Switzerland </a></li>
+                <li><a style="text-decoration:none" href="germany.php">
+                Germany </a></li>
                 
 
->>>>>>> afbf5209a50de89efdafce388d5d0b8846385439
            </ul>  
          </li>
 
@@ -51,10 +44,14 @@
       <div class="most"> Most palce visit
 
 
-        <div class="berlin"> <button><a  style="text-decoration:none" href="https://www.booking.com/tourism/city/de/berlin.en.html?aid=339738;label=city-berlin-OtM%2AKCpLr1WEcOm48074ygS297932704041%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-2646035202%3Alp9070447%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YU5pXiVhsEsYF5VzKbQXpIg;sid=c711d666c9414e6d660ce51eb0fdc89f">Berlin </a></button></div>
-            <div class="bermen"><button><a style="text-decoration: none" href="https://www.planetware.com/tourist-attractions-/bremen-d-bm-bre.htm">Bermen </a></button></div>
-                <div class="hamburg"> <button><a style="text-decoration: none" href="https://www.planetware.com/tourist-attractions-/hamburg-d-hm-ham.htm">Hamburg</button> </a></div>
-                    <div class="dortmund"><button><a style="text-decoration: none" href="https://www.planetware.com/tourist-attractions-/dortmund-d-nw-dor.htm">Dortmund </a></button> </div>
+        <div class="vien"> <button><a  style="text-decoration:none" href="https://www.planetware.com/tourist-attractions-/vienna-a-w-vie.htm">Vien </a></button></div>
+
+
+            <div class="salzburg"><button><a style="text-decoration: none" href=https://www.planetware.com/tourist-attractions-/salzburg-a-s-salz.htm"> 
+
+            Salazburg </a> </button></div>
+                <div class="hallstatt"> <button><a style="text-decoration: none" href="https://www.planetware.com/upper-austria/hallstatter-see-hallstatt-a-o-halls.htm">Hallstatt</button> </a></div>
+                    <div class="innsbruck"><button><a style="text-decoration: none" href="https://www.planetware.com/tourist-attractions-/innsbruck-a-t-inns.htm">Innsbruck </a></button> </div>
 
       </div>
     </div>

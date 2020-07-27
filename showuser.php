@@ -1,12 +1,20 @@
 <?php
-	require 'contact.php';
+	require 'dbcon.php';
     
 	$query = $pdo->query('SELECT * FROM people');
     $people = $query->fetchAll();
-?>
+?><!DOCTYPE html>
+<link rel="stylesheet" type="text/css" href="travel.css">
+<html>
+<head>
+    <title>Users</title>
+</head>
+<body>
+
+
        
-	<div class="mt-2">
-        <div class="container">
+	<div class="show1">
+        <div class="show2">
  
             <table>
                 <thead>
@@ -32,3 +40,6 @@
             <button><a href="index.php">Go to Home Page</a></button>
         </div>
     </div>
+
+</body>
+</html>

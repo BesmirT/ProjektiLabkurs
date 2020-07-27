@@ -6,66 +6,77 @@
 
 
 
-session_start();
-
-$host="localhost";
-$username="root";
-$password="";
-$database="labkurs";
-$message="";	
-
-try{
-    $pdo = new PDO("mysql:host=localhost;dbname=labkurs", "root" , "");
-
+include "dbcon.php";
    
-    echo "database connect";    
 
 
-    if(isset($_POST["login"])){
+     if(isset($_POST["login"])){
 
-    	if(empty($_POST["username"])	||	empty($_POST["password"])){
-    		$messages='<label>"All fileds are required"</label>';
-
-
-    	}
+        if(empty($_POST["username"])    ||  empty($_POST["password"])){
+        echo "Name or password its empty";
 
 
-    	else {
+        }
 
 
-    		$query="SELECT * FROM people WHERE name=:username AND password=:password";
-    		$statement=$pdo->prepare($query);
-    		$statement->execute(
+        else {
 
 
-    			array(
+            $query="SELECT * FROM people WHERE name=:username AND password=:password";
 
-    				'username' => $_POST["username"],
-    				'password' => $_POST["password"]
+            $statement=$pdo->prepare($query);
+            $statement->execute(
+
+
+                array(
+
+                    'username' => $_POST["username"],
+                    'password' => $_POST["password"],
+                   
+
+
+                )
+
+            );
+
+            $count=$statement->rowCount();
+
+            if($count>0)
+            {
+                $_SESSION["username"]=$_POST["username"];
 
 
 
-    			)
+                  if(empty($_POST["access"]=="admin") || empty($_POST["username"]=="admin") ){
 
-    		);
+                        echo "<h1>You are user you not acces to data <h1>";
+                    }
+                    else{
 
-    		$count=$statement->rowCount();
 
-    		if($count<=1)
-    		{
-    			$_SESSION["username"]=$_POST["username"];
+                header("location:login_s.php");
+            }
 
-    			header("location:login_s.php");
-    		}
 
-    		else{
 
-    			$message= '<label> Wrong data </label>';
+            if(empty($_POST["access"]=="user") ){ 
+
+           
+            }
+            else {
+                   header("location:puser.php");
+
+            }
+            
+            }
+
+            else{
+
+              echo "wrong data or not register ";
              
-    		}
-    	}
+            }
+        }
     }
-}
 
 
 
@@ -73,18 +84,20 @@ try{
 
 
 
-catch(PDOException $error){
-    die("Unsuccessful connection");
-    echo "database not connect";
-}
 ?>
 
 <!DOCTYPE html>
 <html>
+<link rel="stylesheet" type="text/css" href="travel.css">
 <head>
 	<title>contact</title>
 </head>
-<body>
+<body> 
+
+    <div class="all">
+
+
+    <div class="cont">
 
 	<?php
 
@@ -100,16 +113,26 @@ catch(PDOException $error){
 	<form  method="POST"> 
 
 <input type="text" name="username" placeholder="name"> <br>
+<input type="text" name="access" placeholder="access"> <br>
 
 <input type="password" name="password" placeholder="passsword"><br>
 
 <input type="submit" name="login" class="button" value="Login">
 
-<button><a href="index.php">Back Home</a></button>
+</form>
+</div>
+  <div class="contbutton">
+<button><a style="text-decoration:none"href="index.php">Back Home</a></button>
+</div>
+
+
+<div class="h1">
+   <h1> You dont have account Please Sign up <button><a style="text-decoration:none" href="addusers.php">Sign up </a></button> </h1> 
+</div>
+</div>
 
 
 
-   <h1> You dont have account Please Sign up <button><a href="addusers.php">Sign up </a></button> </h1>
 
 
 </body>

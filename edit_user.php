@@ -1,5 +1,5 @@
 <?php 
-	require 'contact.php';
+	require 'dbcon.php';
 
     if(isset($_GET['id'])){
         $id = $_GET['id'];
@@ -27,25 +27,47 @@
 		
 	
 		
-        header("Location: addusers.php");
+        header("Location: contact.php");
     }
 ?>
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" type="text/css" href="travel.css">
+<head>
+    <title>Edit</title>
+</head>
+<body>
 
-<div class="mt-2">
-    <div class="container">
+</body>
+</html>
+
+<div class="mt-2">  
+
+    <div class="Data">
+    Edit your Data
+    </div>
+
         
 
         <form method="post">
             <ul>
-              <li>
+              <li>Name
               <input type="text" name="name" value="<?php echo $user['name']; ?>" placeholder="Enter your name"><br>
          </li>
          <li>
+            Email
             <input type="text" name="email" value="<?php echo $user['email']; ?>" placeholder="Enter your email"><br>
         </li>
-            <input type="text" name="password" value="<?php echo $user['password']; ?>" placeholder="Enter your pasword"><br>
+        <li>Password
+            <input type="text" name="password" value="<?php echo $user['password']; ?>" placeholder="Enter your pasword"><br></li>
 
-            <input type="submit" name="submit" value="Submit">
+
+
+              <input type="submit" name="submit" value="Submit" class="button">
+        </ul>
         </form>
-    </div>
+
 </div>
+
+</body>
+</html>

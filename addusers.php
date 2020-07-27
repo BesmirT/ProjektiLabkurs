@@ -4,16 +4,13 @@
 <?php 
 
 
-include 'contact.php';
+include 'dbcon.php';
 
 
 
 
-?>
-
-
-  <?php 
-			
+?>  <?php 
+      
       
 
 
@@ -28,9 +25,13 @@ include 'contact.php';
             echo "data missign";
 
 
+
+
         }
+         
 
        else{    
+
              $name = $_POST['name'];
             $email = $_POST['email'];
             $password = $_POST['password'];
@@ -40,14 +41,19 @@ include 'contact.php';
         
 
             $query = $pdo->prepare($sql);
+
             $query->bindParam('name', $name);
             $query->bindParam('email', $email);
             $query->bindParam('password', $password);
-			
+
+                 echo"data insertted";
+      
             $query->execute();
-		
-			
-            header("Location: index.php");
+    
+      
+            header("Location:index.php");
+
+
         
 
 
@@ -59,31 +65,39 @@ include 'contact.php';
 
 
 
+
+
+
     <!DOCTYPE html>
     <html>
+    <link rel="stylesheet" type="text/css" href="travel.css">
     <head>
         <title>Signupi</title>
+
 
 
     </head>
     <body>
     
-    </body>
-    </html>
+   
 
-    <div class="mt-2">
-        <div class="container">
-            <form action="contact.php" method="POST">
+    <div class="all1">
+        <div class="cont1">
+            <form action="" method="POST">
                 <input type="text" name="name" placeholder="Enter your name"><br>
                 <input type="text" name="email" placeholder="Enter your email"><br>
                 <input type="password" name="password" placeholder="Enter your password"><br>
 
-                <input type="submit" name="submit" value="Sign up">
+                <input type="submit" name="submit"   value="Sign up">
             </form>
 
-            <button><a href="index.php">Go to home </a></button>
+           
         </div>
+        <div class="allbutton">
+ <button><a style="text-decoration:none"  href="index.php">Go to home </a></button>
+</div>
 
+   <h2> You have account Sign in  <button><a style="text-decoration:none"  href="contact.php">Sign In</a></button> </h2>
 
 
   
@@ -92,3 +106,5 @@ include 'contact.php';
 
 
 
+ </body>
+    </html>
