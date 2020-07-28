@@ -28,7 +28,8 @@
           
             <li> Amerika 
             <ul>
-              <li> ehhehe</li>
+              <li> <a style="text-decoration: none" href="newyork.php"> New York </a></li>
+              <li> <a style="text-decoration: none"href="nebraska.php">Nebraska </a></li>
             </ul></li>
              <li> Azia </li>
           <li> Afrika </li>
@@ -39,23 +40,29 @@
     </div>
   </div>
 <body>
-    <div class="nn">
+
+  <div class="nn">
 <div class="aall">
 
       <div class="most"> Most palce visit
 
 
-        <div class="vien"> <button><a  style="text-decoration:none" href="https://www.planetware.com/tourist-attractions-/vienna-a-w-vie.htm">Vien </a></button></div>
+        <div class="lasvegas"> <button><a  style="text-decoration:none" href="https://www.uwsn.org/fun-things-do?gclid=EAIaIQobChMI66OQhbfw6gIVCJiyCh2DWwl6EAAYAyAAEgJM5fD_BwE">Las Vegas </a></button></div>
 
 
-            <div class="salzburg"><button><a style="text-decoration: none" href=https://www.planetware.com/tourist-attractions-/salzburg-a-s-salz.htm"> 
+            <div class="lamoillecanyon"><button><a style="text-decoration: none" href="https://travelnevada.com/discover/27109/lamoille-canyon"> 
 
-            Salazburg </a> </button></div>
-                <div class="hallstatt"> <button><a style="text-decoration: none" href="https://www.planetware.com/upper-austria/hallstatter-see-hallstatt-a-o-halls.htm">Hallstatt</button> </a></div>
-                    <div class="innsbruck"><button><a style="text-decoration: none" href="https://www.planetware.com/tourist-attractions-/innsbruck-a-t-inns.htm">Innsbruck </a></button> </div>
+             Lamoille Canyon </a> </button> </div>
+
+                <div class="great"> <button><a style="text-decoration: none" href="https://www.tripadvisor.com/Attraction_Review-g60840-d1584499-Reviews-Great_Basin_National_Park-Baker_Nevada.html">Great Basin National Park</button> </a></div>
+                    <div class="valley"><button><a style="text-decoration: none" href="https://www.earthtrekkers.com/valley-of-fire-las-vegas-day-trip/"> Valley of Fire State Park </a></button> </div>
+
+
+
 
       </div>
     </div>
+
 
 </div>
 

@@ -31,7 +31,7 @@
             <li> <a style="text-decoration:none"href="Germany.php">Germany  </a></li>
             <li><a style="text-decoration:none"href="switzerland.php">Switzerland </a></li>
                 <li><a style="text-decoration:
-                none" href="austri.php" >Austri</li>
+                none" href="austri.php" >Austri </a></li>
            </ul>  
          </li>
 
@@ -39,7 +39,15 @@
             <li> Amerika 
             <ul>
               <li>
-                <a href="newyork.php" >New York </a></li>
+                <a style="text-decoration: none" href="newyork.php" >New York </a></li>
+                <li>
+
+                    <a style="text-decoration: none" href="nevada.php"> Nevada </a>
+               </li>
+               <li> <a style="text-decoration: none" href="nebraska.php">Nebraska </a>
+
+               </li>
+
             </ul></li>
              <li> Azia </li>
           <li> Afrika </li>

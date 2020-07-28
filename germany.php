@@ -15,27 +15,28 @@
         <ul>
            <li> Europa        
               <ul>
-<<<<<<< HEAD
-            <li> <a href="index.php">Back to home  </a></li>
-            <li>Switzerland</li>
-                <li>Austri</li>
-                <li>Sloveni </li>
+
+          
+           
+  
    
-=======
+
             <li> <a style="text-decoration:none"href="index.php">Back to home  </a></li>
             <li><a  style="text-decoration:none"
               href="switzerland.php">Switzerland </a></li>
                 <li><a style="text-decoration:none"href="austri.php">Austri</a></li>
                 
 
->>>>>>> afbf5209a50de89efdafce388d5d0b8846385439
+
            </ul>  
          </li>
 
           
             <li> Amerika 
             <ul>
-              <li> ehhehe</li>
+              <li> <a style="text-decoration: none"href="nevada.php">Nevada</a></li>
+                  <li> <a style="text-decoration: none"href="nevada.php">New York</a></li>
+                  <li> <a style="text-decoration: none"href="nebraska.php">Nebraska</a></li>
             </ul></li>
              <li> Azia </li>
           <li> Afrika </li>
@@ -46,6 +47,7 @@
     </div>
   </div>
 <body>
+  <div class="nn">
 <div class="aall">
 
       <div class="most"> Most palce visit
@@ -58,6 +60,8 @@
 
       </div>
     </div>
+  </div>
+
 
 
      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>

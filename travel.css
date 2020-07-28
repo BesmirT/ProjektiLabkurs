@@ -362,15 +362,49 @@ font-size: 30px;
 	font-size: 20px;
 border-radius: 20px;
 
-margin-left: 640px;
 
+
+border: 1px red solid;
+width: 100px;
+height: 50px;
+
+background-color: #8000ff;
+	margin-left: 620px;
+box-shadow: 2px 3px 4px;
 
 }
 .most .slick-prev{
+	margin-top: 10px;
+	margin-bottom: 13px;
+	
+
 	font-size: 20px;
 	border-radius: 20px;
-	margin-left: 610px;
+	margin-left: 620px;
+
+	background-color: #8000ff;
+
+	border: 1px red solid;
+width: 100px;
+height: 50px;
+box-shadow: 2px 3px 4px;
 	
+
+}
+
+.nn{
+
+	border: 1px grey solid;
+	width: 100%;
+	height: 600px;
+	background-color: #cc99ff;
+}
+.aall{
+
+
+	height:  460px;
+	
+	background-color: #cc99ff;
 
 }
 
@@ -422,6 +456,7 @@ color: green;
 .f1 h1{
 
 border: 1px blue solid;
+
 width: 400px;
 height: 100px;
 float: right;
@@ -489,7 +524,7 @@ h1 button {
 
 
 	width: 100%;
-	height: 640px;
+	height: 690px;
 }
 
 
@@ -497,7 +532,7 @@ h1 button {
 
 
 	width: 100% ;
-	height: 640px;
+	height: 690px;
 		background-image: url(FotoperWeb/bc.jpg);
 }
 
@@ -560,12 +595,7 @@ h2 button {
 
 }
 
-.aall{
 
-	border:1px blue solid;
-	height:  450px;
-
-}
 input {
 	margin: 20px 0;
 
@@ -938,4 +968,160 @@ font-size: 30px;
 	background-color: grey;
 	color: white;
 }
+
+
+.lasvegas {
+	border: 1px red solid;
+	height: 435px;
+	background-image: url("FotoperWeb/lasvegas.jpg");
+	background-size: 100%;
+	border-radius: 10px;
+	box-shadow: 3px 4px 5px;
+}
+.lasvegas button {
+	font-size: 30px;
+	margin-left: 250px;
+	margin-top: 200;
+	border-radius: 10px;
+	border-radius: 1px black solid;
+	box-shadow: 3px 4px 4px;
+	background-color: grey;
+	color: white;
+}
+.lamoillecanyon {
+	border: 1px red solid;
+	height: 435px;
+	background-image: url("FotoperWeb/lc.jpg");
+	background-size: 100%;
+	border-radius: 10px;
+	box-shadow: 3px 4px 5px;
+}
+.lamoillecanyon button {
+	font-size: 30px;
+	margin-left: 240px;
+	margin-top: 200;
+	border-radius: 10px;
+	border-radius: 1px black solid;
+	box-shadow: 3px 4px 4px;
+	background-color: grey;
+	color: white;
+}
+.great {
+	border: 1px red solid;
+	height: 435px;
+	background-image: url("FotoperWeb/GreatBasinNationalPark.jpg");
+	background-size: 100%;
+	border-radius: 10px;
+	box-shadow: 3px 4px 5px;
+}
+.great button {
+	font-size: 30px;
+	margin-left: 150px;
+	margin-top: 200;
+	border-radius: 10px;
+	border-radius: 1px black solid;
+	box-shadow: 3px 4px 4px;
+	background-color: grey;
+	color: white;
+}
+.valley {
+	border: 1px red solid;
+	height: 435px;
+	background-image: url("FotoperWeb/vfs.jpg");
+	background-size: 100%;
+	border-radius: 10px;
+	box-shadow: 3px 4px 5px;
+}
+.valley button {
+	font-size: 30px;
+	margin-left: 170px;
+	margin-top: 200;
+	border-radius: 10px;
+	border-radius: 1px black solid;
+	box-shadow: 3px 4px 4px;
+	background-color: grey;
+	color: white;
+}
+
+
+.chimney {
+	border: 1px red solid;
+	height: 435px;
+	background-image: url("FotoperWeb/chimney_rock.jpg");
+	background-size: 100%;
+	border-radius: 10px;
+	box-shadow: 3px 4px 5px;
+}
+.chimney button {
+	font-size: 30px;
+	margin-left: 200px;
+	margin-top: 200;
+	border-radius: 10px;
+	border-radius: 1px black solid;
+	box-shadow: 3px 4px 4px;
+	background-color: grey;
+	color: white;
+}
+
+
+.carhenge {
+	border: 1px red solid;
+	height: 435px;
+	background-image: url("FotoperWeb/carhenge.jpg");
+	background-size: 100%;
+	border-radius: 10px;
+	box-shadow: 3px 4px 5px;
+}
+.carhenge button {
+	font-size: 30px;
+	margin-left: 260px;
+	margin-top: 200;
+	border-radius: 10px;
+	border-radius: 1px black solid;
+	box-shadow: 3px 4px 4px;
+	background-color: grey;
+	color: white;
+}
+
+.cowboytrail {
+	border: 1px red solid;
+	height: 435px;
+	background-image: url("FotoperWeb/cowboy_trail.jpg");
+	background-size: 100%;
+	border-radius: 10px;
+	box-shadow: 3px 4px 5px;
+}
+.cowboytrail button {
+	font-size: 30px;
+	margin-left: 240px;
+	margin-top: 200;
+	border-radius: 10px;
+	border-radius: 1px black solid;
+	box-shadow: 3px 4px 4px;
+	background-color: grey;
+	color: white;
+}
+
+
+.lincoln {
+	border: 1px red solid;
+	height: 435px;
+	background-image: url("FotoperWeb/lincoln_ne.jpg");
+	background-size: 100%;
+	border-radius: 10px;
+	box-shadow: 3px 4px 5px;
+}
+.lincoln button {
+	font-size: 30px;
+	margin-left: 270px;
+	margin-top: 200;
+	border-radius: 10px;
+	border-radius: 1px black solid;
+	box-shadow: 3px 4px 4px;
+	background-color: grey;
+	color: white;
+}
+
+
+
 
