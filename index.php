@@ -38,7 +38,8 @@
           
             <li> Amerika 
             <ul>
-              <li> ehhehe</li>
+              <li>
+                <a href="newyork.php" >New York </a></li>
             </ul></li>
              <li> Azia </li>
           <li> Afrika </li>

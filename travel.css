@@ -863,7 +863,79 @@ font-size: 30px;
 
 }
 
+.NewYork{
+	border: 1px red solid;
+	height: 435px;
+	background-image: url("https://mk0travelawayrru2xew.kinstacdn.com/wp-content/uploads/2017/08/NYC-aerial-view.jpg");
+	background-size: 100%;
+	border-radius: 10px;
+	box-shadow: 3px 4px 5px;
 
+} 
+.NewYork button{
+	font-size: 30px;
+	margin-left: 280px;
+	margin-top: 200;
+	border-radius: 10px;
+	border-radius: 1px black solid;
+	box-shadow: 3px 4px 4px;
+	background-color: grey;
+	color: white;
+}
+.StatueofLiberty {
+	border: 1px red solid;
+	height: 435px;
+	background-image: url("https://i2.wp.com/wadetours.com/wp-content/uploads/2020/01/Statue-of-Liberty-2-scaled.jpg?fit=2560%2C1707&ssl=1");
+	background-size: 100%;
+	border-radius: 10px;
+	box-shadow: 3px 4px 5px;
+}
 
+.StatueofLiberty button {
+	font-size: 30px;
+	margin-left: 280px;
+	margin-top: 200;
+	border-radius: 10px;
+	border-radius: 1px black solid;
+	box-shadow: 3px 4px 4px;
+	background-color: grey;
+	color: white;
 
+}
+.TwinTowers {
+	border: 1px red solid;
+	height: 435px;
+	background-image: url("https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/2-world-trade-center-twin-towers-new-york-city-antonio-martinho.jpg");
+	background-size: 100%;
+	border-radius: 10px;
+	box-shadow: 3px 4px 5px;
+}
+.TwinTowers button {
+	font-size: 30px;
+	margin-left: 280px;
+	margin-top: 200;
+	border-radius: 10px;
+	border-radius: 1px black solid;
+	box-shadow: 3px 4px 4px;
+	background-color: grey;
+	color: white;
+}
+.CentralPark {
+	border: 1px red solid;
+	height: 435px;
+	background-image: url("https://media.timeout.com/images/103451632/630/472/image.jpg");
+	background-size: 100%;
+	border-radius: 10px;
+	box-shadow: 3px 4px 5px;
+}
+.CentralPark button {
+	font-size: 30px;
+	margin-left: 280px;
+	margin-top: 200;
+	border-radius: 10px;
+	border-radius: 1px black solid;
+	box-shadow: 3px 4px 4px;
+	background-color: grey;
+	color: white;
+}
 
