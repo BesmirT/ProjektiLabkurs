@@ -7,11 +7,12 @@
 
 
 <head>
-	<title>Austri</title>
+	<title>Maldives</title>
 </head>
 
    <div class="continent">    <div class="trip">Trip Tavel 
     </div>
+
       <div class="menu">
         <ul>
            <li> Europa        
@@ -27,19 +28,23 @@
 
           
             <li> Amerika 
-               <ul>
+             <ul>
               <li> <a style="text-decoration: none"href="nevada.php">Nevada</a></li>
                   <li> <a style="text-decoration: none"href="nevada.php">New York</a></li>
                   <li> <a style="text-decoration: none"href="nebraska.php">Nebraska</a></li>
                   
             </ul></li>
              <li> Azia
-                   <ul>
-                    <li> <a style="text-decoration:none" href="dubai.php">Dubai</a></li>
-                <li><a  style="text-decoration:none"href="maldives.php">Maldives </a></li>
 
-                <li><a style="text-decoration:none" href="singapore.php">Singapore </a></li>
-                </ul> </li>
+                 <ul> 
+                <li> <a href="dubai.php">Dubai </a></li>
+               
+
+                <li><a href="singapore.php">Singapore</a></li>
+
+
+
+              </ul> </li>
           <li> Afrika </li>
               <li> Australia </li>
                 <li> Antarctica </li>
@@ -54,14 +59,14 @@
       <div class="most"> Most palce visit
 
 
-        <div class="vien"> <button><a  style="text-decoration:none" href="https://www.planetware.com/tourist-attractions-/vienna-a-w-vie.htm">Vien </a></button></div>
+        <div class="Maafushi"> <button><a  style="text-decoration:none" href="https://www.booking.com/beach/city/mv/maafushi.en-gb.html?aid=356980;label=gog235jc-1DCAMYASieAUIIbWFhZnVzaGlIM1gDaIECiAEBmAEJuAEGyAEM2AED6AEBiAIBqAIDuAKrrYf5BcACAdICJGFhODVkMDhiLWQwNzktNDU2Mi04NDRhLWRkNWY4ZDQ2ZDU0NNgCBOACAQ;sid=83a219a150c1c112a5449c1f99c74183;keep_landing=1&">Maafushi </a></button></div>
 
 
-            <div class="salzburg"><button><a style="text-decoration: none" href=https://www.planetware.com/tourist-attractions-/salzburg-a-s-salz.htm"> 
+            <div class="Hulhumale"><button><a style="text-decoration: none" href=https://www.booking.com/hotel/mv/hulhule-island.en-gb.html?aid=356980;label=gog235jc-1DCAsongFCDmh1bGh1bGUtaXNsYW5kSDNYA2iBAogBAZgBCbgBBsgBDNgBA-gBAYgCAagCA7gClK6H-QXAAgHSAiRiMzU4ZmQ4NS0yODBkLTRiYTAtOTJlZi0xY2ZhNDhmYmI2YWLYAgTgAgE;sid=83a219a150c1c112a5449c1f99c74183;dist=0&keep_landing=1&sb_price_type=total&type=total&"> 
 
-            Salazburg </a> </button></div>
-                <div class="hallstatt"> <button><a style="text-decoration: none" href="https://www.planetware.com/upper-austria/hallstatter-see-hallstatt-a-o-halls.htm">Hallstatt</button> </a></div>
-                    <div class="innsbruck"><button><a style="text-decoration: none" href="https://www.planetware.com/tourist-attractions-/innsbruck-a-t-inns.htm">Innsbruck </a></button> </div>
+            Hulhumale </a> </button></div>
+                <div class="Kuramathi"> <button><a style="text-decoration: none" href="https://www.kuramathi.com/">Kuramathi</button> </a></div>
+                    <div class="AriAtoll"><button><a style="text-decoration: none" href="https://www.booking.com/resorts/region/mv/alif-alif-atoll.en-gb.html">Ari Atoll </a></button> </div>
 
       </div>
     </div>

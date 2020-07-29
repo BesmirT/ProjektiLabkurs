@@ -7,11 +7,13 @@
 
 
 <head>
-	<title>Austri</title>
+	<title>Dubai</title>
 </head>
 
-   <div class="continent">    <div class="trip">Trip Tavel 
+   <div class="continent">
+    <div class="trip">Trip Tavel 
     </div>
+
       <div class="menu">
         <ul>
            <li> Europa        
@@ -27,19 +29,22 @@
 
           
             <li> Amerika 
-               <ul>
+              <ul>
               <li> <a style="text-decoration: none"href="nevada.php">Nevada</a></li>
                   <li> <a style="text-decoration: none"href="nevada.php">New York</a></li>
                   <li> <a style="text-decoration: none"href="nebraska.php">Nebraska</a></li>
                   
             </ul></li>
-             <li> Azia
-                   <ul>
-                    <li> <a style="text-decoration:none" href="dubai.php">Dubai</a></li>
-                <li><a  style="text-decoration:none"href="maldives.php">Maldives </a></li>
+             <li> Azia 
+                 <ul> 
+                
+                <li><a href="maldives.php">Maldives</a></li>
 
-                <li><a style="text-decoration:none" href="singapore.php">Singapore </a></li>
-                </ul> </li>
+                <li><a href="singapore.php">Singapore </a></li>
+
+
+
+              </ul></li>
           <li> Afrika </li>
               <li> Australia </li>
                 <li> Antarctica </li>
@@ -54,14 +59,16 @@
       <div class="most"> Most palce visit
 
 
-        <div class="vien"> <button><a  style="text-decoration:none" href="https://www.planetware.com/tourist-attractions-/vienna-a-w-vie.htm">Vien </a></button></div>
+        <div class="burjkhalifa"> <button><a  style="text-decoration:none" href="https://www.planetware.com/tourist-attractions-/dubai-uae-dub-dubai.htm">Burj Khalifa </a></button></div>
 
 
-            <div class="salzburg"><button><a style="text-decoration: none" href=https://www.planetware.com/tourist-attractions-/salzburg-a-s-salz.htm"> 
+            <div class="thedubaifountain"><button><a style="text-decoration: none" href="https://www.planetware.com/tourist-attractions-/dubai-uae-dub-dubai.htm"> 
 
-            Salazburg </a> </button></div>
-                <div class="hallstatt"> <button><a style="text-decoration: none" href="https://www.planetware.com/upper-austria/hallstatter-see-hallstatt-a-o-halls.htm">Hallstatt</button> </a></div>
-                    <div class="innsbruck"><button><a style="text-decoration: none" href="https://www.planetware.com/tourist-attractions-/innsbruck-a-t-inns.htm">Innsbruck </a></button> </div>
+            The Dubai Fountain </a> </button></div>
+                <div class="SkiDubai"> <button><a style="text-decoration: none" href="https://www.planetware.com/tourist-attractions-/dubai-uae-dub-dubai.htm">Ski Dubai</button> </a></div>
+                    <div class="dubaimuseum">
+
+                      <button><a style="text-decoration: none" href="https://www.planetware.com/tourist-attractions-/dubai-uae-dub-dubai.htm"> Dubai Museum </a></button> </div>
 
       </div>
     </div>

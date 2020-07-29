@@ -7,10 +7,12 @@
 
 
 <head>
-	<title>Germany</title>
+	<title>Switzerland</title>
+  
 </head>
 
-   <div class="continent">Select Contry 
+   <div class="continent">    <div class="trip">Trip Tavel 
+    </div> 
 
       <div class="menu">
         <ul>
@@ -32,7 +34,13 @@
                   <li> <a style="text-decoration: none"href="nebraska.php">Nebraska</a></li>
                   
             </ul></li>
-             <li> Azia </li>
+             <li> Azia
+              <ul>
+                    <li> <a  style="text-decoration:none" href="dubai.php">Dubai</a></li>
+                <li><a  style="text-decoration:none"href="maldives.php">Maldives </a></li>
+
+                <li><a  style="text-decoration:none" href="singapore.php">Singapore </a></li>
+                </ul> </li>
           <li> Afrika </li>
               <li> Australia </li>
                 <li> Antarctica </li>

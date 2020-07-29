@@ -49,7 +49,20 @@
                </li>
 
             </ul></li>
-             <li> Azia </li>
+
+             <li> Azia 
+              <ul> 
+                <li> <a  style="text-decoration:none"href="dubai.php">Dubai</a></li>
+                <li><a   style="text-decoration:none"href="maldives.php">Maldives </a></li>
+
+                <li><a  style="text-decoration:none"href="singapore.php">Singapore </a></li>
+
+
+
+              </ul>
+              
+
+             </li>
           <li> Afrika </li>
               <li> Australia </li>
                 <li> Antarctica </li>

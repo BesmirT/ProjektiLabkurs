@@ -57,11 +57,12 @@
 .continent{
 
 	border: 1px grey solid;
-	height: 150px;
+	height: 200px;
 	width: 100%;
-		background-image: url(FotoperWeb/tt.jpg) ;
+		background-image: url(FotoperWeb/ttt.jpg) ;
 			background-repeat: no-repeat;
 			background-size: 100%;
+			background-position: center;
 }
 
 .continent ul ul{
@@ -394,10 +395,18 @@ box-shadow: 2px 3px 4px;
 }
 .trip{
 
-	border: 1px solid red;
+	border: 1px solid white;
 	width: 300px;
-	height: 200px;
-	margin-left: 300px;
+	height: 50px;
+
+	margin-top: 3px;
+
+	text-align: center;
+	padding: 3px;
+	font-size: 40px;
+	color: black;
+	border-radius: 10px;
+	box-shadow: 3px 4px 4px;
 
 }
 
@@ -406,14 +415,16 @@ box-shadow: 2px 3px 4px;
 	border: 1px grey solid;
 	width: 100%;
 	height: 600px;
-	background-color: #cc99ff;
+	background-image:  url("FotoperWeb/tt2.jpg");
+	background-size: 100%;
 }
 .aall{
 
 
 	height:  460px;
-	
-	background-color: #cc99ff;
+	background-image: url("FotoperWeb/tt2.jpg");
+	background-size: 100%;
+
 
 }
 
@@ -1130,6 +1141,247 @@ font-size: 30px;
 	background-color: grey;
 	color: white;
 }
+
+
+
+/*dubai */
+
+
+.burjkhalifa {
+	border: 1px red solid;
+	height: 435px;
+	background-image: url("FotoperWeb/buj.jpg");
+	background-size: 100%;
+	border-radius: 10px;
+	box-shadow: 3px 4px 5px;
+}
+.burjkhalifa button {
+	font-size: 30px;
+	margin-left: 270px;
+	margin-top: 200;
+	border-radius: 10px;
+	border-radius: 1px black solid;
+	box-shadow: 3px 4px 4px;
+	background-color: grey;
+	color: white;
+}
+.thedubaifountain {
+	border: 1px red solid;
+	height: 435px;
+	background-image: url("FotoperWeb/dmall.jpg");
+	background-size: 100%;
+	border-radius: 10px;
+	box-shadow: 3px 4px 5px;
+}
+.thedubaifountain button {
+	font-size: 30px;
+	margin-left: 270px;
+	margin-top: 200;
+	border-radius: 10px;
+	border-radius: 1px black solid;
+	box-shadow: 3px 4px 4px;
+	background-color: grey;
+	color: white;
+}
+.SkiDubai {
+	border: 1px red solid;
+	height: 435px;
+	background-image: url("FotoperWeb/ski.jpg");
+	background-size: 180%;
+	border-radius: 10px;
+	box-shadow: 3px 4px 5px;
+}
+.SkiDubai button {
+	font-size: 30px;
+	margin-left: 270px;
+	margin-top: 200;
+	border-radius: 10px;
+	border-radius: 1px black solid;
+	box-shadow: 3px 4px 4px;
+	background-color: grey;
+	color: white;
+}
+.dubaimuseum {
+	border: 1px red solid;
+	height: 435px;
+	background-image: url("FotoperWeb/dmuseum.jpg");
+	background-size: 100%;
+	border-radius: 10px;
+	box-shadow: 3px 4px 5px;
+}
+.dubaimuseum button {
+	font-size: 30px;
+	margin-left: 270px;
+	margin-top: 200;
+	border-radius: 10px;
+	border-radius: 1px black solid;
+	box-shadow: 3px 4px 4px;
+	background-color: grey;
+	color: white;
+}
+
+
+
+/*maldives */
+
+.Maafushi {
+	border: 1px red solid;
+	height: 435px;
+	background-image: url("FotoperWeb/mafushi.jpg");
+	background-size: 100%;
+	border-radius: 10px;
+	box-shadow: 3px 4px 5px;
+}
+.Maafushi button {
+	font-size: 30px;
+	margin-left: 270px;
+	margin-top: 200;
+	border-radius: 10px;
+	border-radius: 1px black solid;
+	box-shadow: 3px 4px 4px;
+	background-color: grey;
+	color: white;
+}
+.Hulhumale {
+	border: 1px red solid;
+	height: 435px;
+	background-image: url("FotoperWeb/hulmale.jpg");
+	background-size: 100%;
+	border-radius: 10px;
+	box-shadow: 3px 4px 5px;
+}
+.Hulhumale button {
+	font-size: 30px;
+	margin-left: 270px;
+	margin-top: 200;
+	border-radius: 10px;
+	border-radius: 1px black solid;
+	box-shadow: 3px 4px 4px;
+	background-color: grey;
+	color: white;
+}
+.Kuramathi {
+	border: 1px red solid;
+	height: 435px;
+	background-image: url("FotoperWeb/kurmathi.jpg");
+	background-size: 120%;
+	border-radius: 10px;
+	box-shadow: 3px 4px 5px;
+}
+.Kuramathi button {
+	font-size: 30px;
+	margin-left: 270px;
+	margin-top: 200;
+	border-radius: 10px;
+	border-radius: 1px black solid;
+	box-shadow: 3px 4px 4px;
+	background-color: grey;
+	color: white;
+}
+.AriAtoll {
+	border: 1px red solid;
+	height: 435px;
+	background-image: url("FotoperWeb/ariatoll.jpg");
+	background-size: 120%;
+	border-radius: 10px;
+	box-shadow: 3px 4px 5px;
+}
+.AriAtoll button {
+	font-size: 30px;
+	margin-left: 270px;
+	margin-top: 200;
+	border-radius: 10px;
+	border-radius: 1px black solid;
+	box-shadow: 3px 4px 4px;
+	background-color: grey;
+	color: white;
+}
+
+/*singapore */
+
+
+.Gardens {
+	border: 1px red solid;
+	height: 435px;
+	background-image: url("FotoperWeb/gardens.jpg");
+	background-size: 140%;
+	border-radius: 10px;
+	box-shadow: 3px 4px 5px;
+}
+.Gardens button {
+	font-size: 30px;
+	margin-left: 270px;
+	margin-top: 200;
+	border-radius: 10px;
+	border-radius: 1px black solid;
+	box-shadow: 3px 4px 4px;
+	background-color: grey;
+	color: white;
+}
+
+.Sentosa {
+	border: 1px red solid;
+	height: 435px;
+	background-image: url("FotoperWeb/sentosa.jpg");
+	background-size: 140%;
+	border-radius: 10px;
+	box-shadow: 3px 4px 5px;
+}
+.Sentosa button {
+	font-size: 30px;
+	margin-left: 270px;
+	margin-top: 200;
+	border-radius: 10px;
+	border-radius: 1px black solid;
+	box-shadow: 3px 4px 4px;
+	background-color: grey;
+	color: white;
+}
+
+.Merlion {
+	border: 1px red solid;
+	height: 435px;
+	background-image: url("FotoperWeb/merilon.jpg");
+	background-size: 100%;
+	border-radius: 10px;
+	box-shadow: 3px 4px 5px;
+}
+.Merlion button {
+	font-size: 30px;
+	margin-left: 270px;
+	margin-top: 200;
+	border-radius: 10px;
+	border-radius: 1px black solid;
+	box-shadow: 3px 4px 4px;
+	background-color: grey;
+	color: white;
+}
+
+.Marina {
+	border: 1px red solid;
+	height: 435px;
+	background-image: url("FotoperWeb/marina2.jpg");
+	background-size: 100%;
+	border-radius: 10px;
+	box-shadow: 3px 4px 5px;
+}
+.Marina button {
+	font-size: 30px;
+	margin-left: 270px;
+	margin-top: 200;
+	border-radius: 10px;
+	border-radius: 1px black solid;
+	box-shadow: 3px 4px 4px;
+	background-color: grey;
+	color: white;
+}
+
+
+
+
+
+
+
 
 
 
