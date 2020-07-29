@@ -1,20 +1,21 @@
 <?php
-	require 'dbcon.php';
+    require 'dbcon.php';
     
-	$query = $pdo->query('SELECT * FROM people');
+    $query = $pdo->query('SELECT * FROM people');
     $people = $query->fetchAll();
-?><!DOCTYPE html>
-<link rel="stylesheet" type="text/css" href="travel.css">
-<html>
-<head>
-    <title>Users</title>
-</head>
-<body>
+?>
+        <!DOCTYPE html>
+    <link rel="stylesheet" type="text/css" href="Projekti.css">
+    <html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+    
+    </body>
+    </html>
 
-
-       
-	<div class="show1">
-        <div class="show2">
+        <div class="container">
  
             <table>
                 <thead>
@@ -25,21 +26,36 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <?php foreach($people as $user):  ?>
+                    <?php 
+
+                 
+               
+
+
+                    foreach($people as $user):  ?>
+
+
+
 
                         <tr>
                             <td><?php echo $user['name']; ?></td>
                             <td><?php echo $user['email']; ?></td>
                               <td><?php echo $user['password']; ?></td>
-                            <td><a href="edit_user.php?id=<?php echo $user['id']; ?>">Edit</a></td>
+                            <td><a href="edit_user.php?id=<?php
+                             echo $user['id']; ?>">Edit</a></td>
                             <td><a href="delete_user.php?id=<?php echo $user['id']; ?>">Delete</a></td>
                         </tr>
+
                     <?php endforeach;?>
+
+                    
                 </tbody>
             </table>
             <button><a href="index.php">Go to Home Page</a></button>
+       
         </div>
     </div>
-
-</body>
+  
+    </body>
+    </html>
 </html>

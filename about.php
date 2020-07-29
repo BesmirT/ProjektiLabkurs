@@ -1,4 +1,16 @@
-  
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>About</title>
+</head>
+<body>
+
+
 
   <!DOCTYPE html>
   <html>
@@ -78,32 +90,16 @@
     </div>
 
 
-
-  <div class="Pershkrimi">
-
-    <div class="search">
-
-      <h1>This page offers a lot of palce to visit!</h1>
-    </div>
-    <div class="f1"> 
-    <h1>Best Choice for search a place to visit its This Page</h1></div>
-    <div class="f2"> <h1>Look to menu and dropdown menu </h1></div>
+  <div class="about">
 
 
 
+<div class="h12">
 
-  </div>
+	We are an intermediary site that makes possible the proposal of the most interesting places in the world.
+</div>
 
+</div>
 
-
-
-
-
-  
-      
 </body>
-     
-  
-     
-
-  </html>
+</html>
