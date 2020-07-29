@@ -15,7 +15,7 @@
 
 	if(isset($_SESSION["username"]))
 	{
-		echo "Welcome "  .$_SE	SSION["username"];
+		echo "Welcome "  .$_SESSION["username"];
 
 
 
