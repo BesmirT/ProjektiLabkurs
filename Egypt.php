@@ -1,4 +1,3 @@
- 
 
 <link rel="stylesheet" type="text/css" href="travel.css">
  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
@@ -59,16 +58,14 @@
       <div class="most"> Most palce visit
 
 
-        <div class="burjkhalifa"> <button><a  style="text-decoration:none" href="https://www.planetware.com/tourist-attractions-/dubai-uae-dub-dubai.htm">Burj Khalifa </a></button></div>
+        <div class="Egypt"> <button><a  style="text-decoration:none" href="https://en.wikipedia.org/wiki/Egypt">Egypt </a></button></div>
 
 
-            <div class="thedubaifountain"><button><a style="text-decoration: none" href="https://www.planetware.com/tourist-attractions-/dubai-uae-dub-dubai.htm"> 
+            <div class="Pyramids"><button><a style="text-decoration: none" href="https://en.wikipedia.org/wiki/Pyramid"> Pyramids </a> </button></div>
+                <div class="IslamicCairo"> <button><a style="text-decoration: none" href="https://en.wikipedia.org/wiki/Islamic_Cairo">Islamic Cairo</button> </a></div>
 
-            The Dubai Fountain </a> </button></div>
-                <div class="SkiDubai"> <button><a style="text-decoration: none" href="https://www.planetware.com/tourist-attractions-/dubai-uae-dub-dubai.htm">Ski Dubai</button> </a></div>
-                    <div class="dubaimuseum">
-
-                      <button><a style="text-decoration: none" href="https://www.planetware.com/tourist-attractions-/dubai-uae-dub-dubai.htm"> Dubai Museum </a></button> </div>
+                    <div class="Nile">
+                      <button><a style="text-decoration: none" href="https://en.wikipedia.org/wiki/Nile"> Nile River </a></button> </div>
 
       </div>
     </div>

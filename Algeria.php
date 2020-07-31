@@ -59,16 +59,16 @@
       <div class="most"> Most palce visit
 
 
-        <div class="burjkhalifa"> <button><a  style="text-decoration:none" href="https://www.planetware.com/tourist-attractions-/dubai-uae-dub-dubai.htm">Burj Khalifa </a></button></div>
+        <div class="Oran"> <button><a  style="text-decoration:none" href="https://en.wikipedia.org/wiki/Oran">Oran </a></button></div>
 
 
-            <div class="thedubaifountain"><button><a style="text-decoration: none" href="https://www.planetware.com/tourist-attractions-/dubai-uae-dub-dubai.htm"> 
+            <div class="Djanet"><button><a style="text-decoration: none" href="https://en.wikipedia.org/wiki/Djanet"> 
 
-            The Dubai Fountain </a> </button></div>
-                <div class="SkiDubai"> <button><a style="text-decoration: none" href="https://www.planetware.com/tourist-attractions-/dubai-uae-dub-dubai.htm">Ski Dubai</button> </a></div>
-                    <div class="dubaimuseum">
+            Djanet </a> </button></div>
+                <div class="Algiers"> <button><a style="text-decoration: none" href="https://en.wikipedia.org/wiki/Algiers">Algiers</button> </a></div>
+                    <div class="Ghardaia">
 
-                      <button><a style="text-decoration: none" href="https://www.planetware.com/tourist-attractions-/dubai-uae-dub-dubai.htm"> Dubai Museum </a></button> </div>
+                      <button><a style="text-decoration: none" href="https://en.wikipedia.org/wiki/Gharda%C3%AFa"> Ghardaia </a></button> </div>
 
       </div>
     </div>

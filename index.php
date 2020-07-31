@@ -59,12 +59,22 @@
 
 
 
+
               </ul>
               
 
              </li>
-          <li> Afrika </li>
-              <li> Australia </li>
+          <li> Afrika
+
+
+          <ul>
+            <li><a href="etiopia.php">Etiopia </a></li>
+            <li><a href="Egypt.php">Egypt </a></li>
+            <li><a href="Algeria.php">Algeria </a> 
+          </li>
+          </ul>
+           </li>
+              <li></a> Australia </li>
                 <li> Antarctica </li>
         </li>
       </ul>
@@ -74,7 +84,7 @@
           <li><a style="text-decoration: none" href="contact.php">Contact us</a></li>
           <li><a style="text-decoration: none" href="logout.php">Log out</a></li>
         </ul>
-      </div>
+      </div> 
     </div>
 
 

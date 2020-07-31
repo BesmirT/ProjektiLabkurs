@@ -1376,7 +1376,224 @@ font-size: 30px;
 	color: white;
 }
 
+.Ethiopia {
+	border: 1px red solid;
+	height: 435px;
+	background-image: url("https://lh3.googleusercontent.com/proxy/dyBzBfCMspIeX7GSOg3oMuZgD_kN_vywIMjRZBDX2hVehCHBK9aGBhCHEHfULbS-Liazvz3G_b7_vmya4EvVGnwd9z0E5R5O6K0d32JGGRRQBioTqkeCJjbrIBAR8oO6HBEHLNnSvsKxfkJYGupJ");
+	background-size: 100%;
+	border-radius: 10px;
+	box-shadow: 3px 4px 5px;
+}
+.Ethiopia button {
+	font-size: 30px;
+	margin-left: 270px;
+	margin-top: 200;
+	border-radius: 10px;
+	border-radius: 1px black solid;
+	box-shadow: 3px 4px 4px;
+	background-color: grey;
+	color: white;
+}
+.Singnature {
+	border: 1px red solid;
+	height: 435px;
+	background-image: url("https://media.kensingtontours.com/image/upload/g_auto,f_auto,q_auto,w_1192,h_700,c_fill/kt/live/pictures/africa/east-africa/ethiopia/locale/aerial-view-of-castle");
+	background-size: 100%;
+	border-radius: 10px;
+	box-shadow: 3px 4px 5px;
+}
+.Singnature button {
+	font-size: 30px;
+	margin-left: 270px;
+	margin-top: 200;
+	border-radius: 10px;
+	border-radius: 1px black solid;
+	box-shadow: 3px 4px 4px;
+	background-color: grey;
+	color: white;
+}
+.Gondor {
+	border: 1px red solid;
+	height: 435px;
+	background-image: url("https://food.jumia.ug/blog/wp-content/uploads/2015/11/Fasil-Ghebbi-574x400.png");
+	background-size: 100%;
+	border-radius: 10px;
+	box-shadow: 3px 4px 5px;
+}
+.Gondor button {
+	font-size: 30px;
+	margin-left: 270px;
+	margin-top: 200;
+	border-radius: 10px;
+	border-radius: 1px black solid;
+	box-shadow: 3px 4px 4px;
+	background-color: grey;
+	color: white;
+}
+.LalibelaRock {
+	border: 1px red solid;
+	height: 435px;
+	background-image: url("https://travellersarchive.com/wp-content/uploads/2017/09/Things-to-do-in-Ethiopia-Lalibela-churches.jpg");
+	background-size: 100%;
+	border-radius: 10px;
+	box-shadow: 3px 4px 5px;
+}
+.LalibelaRock button {
+	font-size: 30px;
+	margin-left: 270px;
+	margin-top: 200;
+	border-radius: 10px;
+	border-radius: 1px black solid;
+	box-shadow: 3px 4px 4px;
+	background-color: grey;
+	color: white;
+}
 
+.Egypt{
+	border: 1px red solid;
+	height: 435px;
+	background-image: url("https://www.planetware.com/photos-large/EGY/egypt-cairo-pyramids-of-giza.jpg");
+	background-size: 100%;
+	border-radius: 10px;
+	box-shadow: 3px 4px 5px;
+}
+.Egypt button {
+	font-size: 30px;
+	margin-left: 270px;
+	margin-top: 200;
+	border-radius: 10px;
+	border-radius: 1px black solid;
+	box-shadow: 3px 4px 4px;
+	background-color: grey;
+	color: white;
+}
+.Pyramids {
+	border: 1px red solid;
+	height: 435px;
+	background-image: url("FotoperWeb/piramida.jpg");
+	background-size: 100%;
+	border-radius: 10px;
+	box-shadow: 3px 4px 5px;
+}
+.Pyramids button {
+	font-size: 30px;
+	margin-left: 270px;
+	margin-top: 200;
+	border-radius: 10px;
+	border-radius: 1px black solid;
+	box-shadow: 3px 4px 4px;
+	background-color: grey;
+	color: white;
+}
+.IslamicCairo {
+	border: 1px red solid;
+	height: 435px;
+	background-image: url("FotoperWeb/cairo.jpg");
+	background-size: 100%;
+	border-radius: 10px;
+	box-shadow: 3px 4px 5px;
+}
+.IslamicCairo button {
+	font-size: 30px;
+	margin-left: 270px;
+	margin-top: 200;
+	border-radius: 10px;
+	border-radius: 1px black solid;
+	box-shadow: 3px 4px 4px;
+	background-color: grey;
+	color: white;
+}
+.Nile {
+	border: 1px red solid;
+	height: 435px;
+	background-image: url("FotoperWeb/nile.jpg");
+	background-size: 100%;
+	border-radius: 10px;
+	box-shadow: 3px 4px 5px;	
+}
+.Nile button {
+	font-size: 30px;
+	margin-left: 270px;
+	margin-top: 200;
+	border-radius: 10px;
+	border-radius: 1px black solid;
+	box-shadow: 3px 4px 4px;
+	background-color: grey;
+	color: white;
+}
+.Oran {
+	border: 1px red solid;
+	height: 435px;
+	background-image: url("FotoperWeb/orani.jpg");
+	background-size: 100%;
+	border-radius: 10px;
+	box-shadow: 3px 4px 5px;
+}
+.Oran button {
+	font-size: 30px;
+	margin-left: 270px;
+	margin-top: 200;
+	border-radius: 10px;
+	border-radius: 1px black solid;
+	box-shadow: 3px 4px 4px;
+	background-color: grey;
+	color: white;
+}
+.Djanet {
+	border: 1px red solid;
+	height: 435px;
+	background-image: url("FotoperWeb/djanet.jpg");
+	background-size: 100%;
+	border-radius: 10px;
+	box-shadow: 3px 4px 5px;
+}
+.Djanet button {
+	font-size: 30px;
+	margin-left: 270px;
+	margin-top: 200;
+	border-radius: 10px;
+	border-radius: 1px black solid;
+	box-shadow: 3px 4px 4px;
+	background-color: grey;
+	color: white;
+}
+.Algiers {
+	border: 1px red solid;
+	height: 435px;
+	background-image: url("FotoperWeb/algiers.jpg");
+	background-size: 100%;
+	border-radius: 10px;
+	box-shadow: 3px 4px 5px;
+}
+.Algiers button {
+	font-size: 30px;
+	margin-left: 270px;
+	margin-top: 200;
+	border-radius: 10px;
+	border-radius: 1px black solid;
+	box-shadow: 3px 4px 4px;
+	background-color: grey;
+	color: white;
+}
+.Ghardaia {
+	border: 1px red solid;
+	height: 435px;
+	background-image: url("FotoperWeb/gh.jpg");
+	background-size: 100%;
+	border-radius: 10px;
+	box-shadow: 3px 4px 5px;
+
+}
+.Ghardaia button {
+	font-size: 30px;
+	margin-left: 270px;
+	margin-top: 200;
+	border-radius: 10px;
+	border-radius: 1px black solid;
+	box-shadow: 3px 4px 4px;
+	background-color: grey;
+	color: white;
+}
 .about {
 	border: 1px grey solid;
 	width: 100%;

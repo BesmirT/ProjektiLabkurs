@@ -1,5 +1,3 @@
- 
-
 <link rel="stylesheet" type="text/css" href="travel.css">
  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
 <!DOCTYPE html>
@@ -59,16 +57,17 @@
       <div class="most"> Most palce visit
 
 
-        <div class="burjkhalifa"> <button><a  style="text-decoration:none" href="https://www.planetware.com/tourist-attractions-/dubai-uae-dub-dubai.htm">Burj Khalifa </a></button></div>
+        <div class="Ethiopia"> <button><a  style="text-decoration:none" href="https://es.wikipedia.org/wiki/Etiop%C3%ADa">Ethiopia</a></button></div>
 
 
-            <div class="thedubaifountain"><button><a style="text-decoration: none" href="https://www.planetware.com/tourist-attractions-/dubai-uae-dub-dubai.htm"> 
+            <div class="Singnature"><button><a style="text-decoration: none" href="https://finlandabroad.fi/web/eth/witnessing-a-signature"> 
 
-            The Dubai Fountain </a> </button></div>
-                <div class="SkiDubai"> <button><a style="text-decoration: none" href="https://www.planetware.com/tourist-attractions-/dubai-uae-dub-dubai.htm">Ski Dubai</button> </a></div>
-                    <div class="dubaimuseum">
+            Sing Nature </a> </button></div>
 
-                      <button><a style="text-decoration: none" href="https://www.planetware.com/tourist-attractions-/dubai-uae-dub-dubai.htm"> Dubai Museum </a></button> </div>
+                <div class="Gondor"> <button><a style="text-decoration: none" href="https://food.jumia.ug/blog/tourism-in-ethiopia-top-5-tourist-attractions-in-ethiopia-3538">Gondor</button> </a></div>
+                    <div class="LalibelaRock">
+
+                      <button><a style="text-decoration: none" href="https://travellersarchive.com/travel-tips/ethiopia-blog/things-to-do-in-ethiopia/"> Lalibela Rock </a></button> </div>
 
       </div>
     </div>
