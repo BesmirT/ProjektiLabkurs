@@ -36,18 +36,37 @@
                   
             </ul></li>
              <li> Azia 
-                 <ul> 
-                
-                <li><a href="maldives.php">Maldives</a></li>
+              <ul>
+                  
+                <li><a  style="text-decoration: none"   style="text-decoration:none"href="maldives.php">Maldives </a></li>
 
-                <li><a href="singapore.php">Singapore </a></li>
+                <li><a   style="text-decoration: none" style="text-decoration:none" href="singapore.php">Singapore </a></li>
+                </ul> </li>
+          <li> Afrika 
+            <ul>
+            <li><a  style="text-decoration:none"href="etiopia.php">Etiopia </a></li>
+            <li><a  style="text-decoration:none" href="Egypt.php">Egypt </a></li>
+            <li><a  style="text-decoration:none"href="Algeria.php">Algeria </a> 
+          </li>
+          </ul> 
 
 
 
-              </ul></li>
-          <li> Afrika </li>
-              <li> Australia </li>
-                <li> Antarctica </li>
+           </li>
+              <li> Australia
+
+                <ul>
+              <li><a style="text-decoration: none" href="Sydney.php">Sydney</a></li>
+              <li><a  style="text-decoration: none" href="BRISBANE.php">BRISBANE</a></li>
+              <li><a  style="text-decoration: none"href="Melbourne.php">Melbourne</a></li>
+              </ul>  </li>
+                <li> Antarctica 
+
+                 <ul>
+                  <li><a style="text-decoration:none"href="Ushuaia.php">Ushuaia</a></li>
+                  <li><a style="text-decoration:none" href="CapeTown.php">Cape Town</a></li>
+            
+                </ul></li>
         </li>
       </ul>
     </div>

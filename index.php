@@ -68,24 +68,24 @@
 
 
           <ul>
-            <li><a href="etiopia.php">Etiopia </a></li>
-            <li><a href="Egypt.php">Egypt </a></li>
-            <li><a href="Algeria.php">Algeria </a> 
+            <li><a  style="text-decoration:none"href="etiopia.php">Etiopia </a></li>
+            <li><a  style="text-decoration:none" href="Egypt.php">Egypt </a></li>
+            <li><a  style="text-decoration:none"href="Algeria.php">Algeria </a> 
           </li>
           </ul>
            </li>
 
               <li></a> Australia
               <ul>
-              <li><a href="Sydney.php">Sydney</a></li>
-              <li><a href="BRISBANE.php">BRISBANE</a></li>
-              <li><a href="Melbourne.php">Melbourne</a></li>
+              <li><a style="text-decoration: none" href="Sydney.php">Sydney</a></li>
+              <li><a  style="text-decoration: none" href="BRISBANE.php">BRISBANE</a></li>
+              <li><a  style="text-decoration: none"href="Melbourne.php">Melbourne</a></li>
               </ul> 
             </li>
                 <li> Antarctica 
                 <ul>
-                  <li><a href="Ushuaia.php">Ushuaia</a></li>
-                  <li><a href="CapeTown.php">Cape Town</a></li>
+                  <li><a style="text-decoration:none"href="Ushuaia.php">Ushuaia</a></li>
+                  <li><a style="text-decoration:none" href="CapeTown.php">Cape Town</a></li>
             
                 </ul>
               </li>
