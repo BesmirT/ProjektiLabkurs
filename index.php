@@ -74,8 +74,21 @@
           </li>
           </ul>
            </li>
-              <li></a> Australia </li>
-                <li> Antarctica </li>
+
+              <li></a> Australia
+              <ul>
+              <li><a href="Sydney.php">Sydney</a></li>
+              <li><a href="BRISBANE.php">BRISBANE</a></li>
+              <li><a href="Melbourne.php">Melbourne</a></li>
+              </ul> 
+            </li>
+                <li> Antarctica 
+                <ul>
+                  <li><a href="Ushuaia.php">Ushuaia</a></li>
+                  <li><a href="CapeTown.php">Cape Town</a></li>
+            
+                </ul>
+              </li>
         </li>
       </ul>
   <div class="contact">

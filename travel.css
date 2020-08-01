@@ -1594,6 +1594,366 @@ font-size: 30px;
 	background-color: grey;
 	color: white;
 }
+.Sydney {
+	border: 1px red solid;
+	height: 435px;
+	background-image: url("FotoperWeb/sydney.jpg");
+	background-size: 100%;
+	border-radius: 10px;
+	box-shadow: 3px 4px 5px;
+}
+.Sydney button {
+	font-size: 30px;
+	margin-left: 270px;
+	margin-top: 200;
+	border-radius: 10px;
+	border-radius: 1px black solid;
+	box-shadow: 3px 4px 4px;
+	background-color: grey;
+	color: white;
+}
+.SydneyBridge {
+	border: 1px red solid;
+	height: 435px;
+	background-image: url("FotoperWeb/sb.jpg");
+	background-size: 100%;
+	border-radius: 10px;
+	box-shadow: 3px 4px 5px;
+}
+.SydneyBridge button {
+	font-size: 30px;
+	margin-left: 270px;
+	margin-top: 200;
+	border-radius: 10px;
+	border-radius: 1px black solid;
+	box-shadow: 3px 4px 4px;
+	background-color: grey;
+	color: white;	
+}
+.DarlingHarbour{
+	border: 1px red solid;
+	height: 435px;
+	background-image: url("FotoperWeb/darling.jpg");
+	background-size: 100%;
+	border-radius: 10px;
+	box-shadow: 3px 4px 5px;
+}
+.DarlingHarbour button {
+	font-size: 30px;
+	margin-left: 270px;
+	margin-top: 200;
+	border-radius: 10px;
+	border-radius: 1px black solid;
+	box-shadow: 3px 4px 4px;
+	background-color: grey;
+	color: white;	
+}
+.QueenVictoria {
+	border: 1px red solid;
+	height: 435px;
+	background-image: url("FotoperWeb/qv.jpg");
+	background-size: 100%;
+	border-radius: 10px;
+	box-shadow: 3px 4px 5px;
+}
+.QueenVictoria button {
+	font-size: 30px;
+	margin-left: 270px;
+	margin-top: 200;
+	border-radius: 10px;
+	border-radius: 1px black solid;
+	box-shadow: 3px 4px 4px;
+	background-color: grey;
+	color: white;
+}
+.Brisbane {
+	border: 1px red solid;
+	height: 435px;
+	background-image: url("FotoperWeb/brisbane.jpg");
+	background-size: 100%;
+	border-radius: 10px;
+	box-shadow: 3px 4px 5px;
+}
+.Brisbane button {
+	font-size: 30px;
+	margin-left: 270px;
+	margin-top: 200;
+	border-radius: 10px;
+	border-radius: 1px black solid;
+	box-shadow: 3px 4px 4px;
+	background-color: grey;
+	color: white;
+}
+.BrisbaneGardens {
+	border: 1px red solid;
+	height: 435px;
+	background-image: url("FotoperWeb/garden.jpg");
+	background-size: 100%;
+	border-radius: 10px;
+	box-shadow: 3px 4px 5px;
+}
+.BrisbaneGardens button {
+	font-size: 30px;
+	margin-left: 270px;
+	margin-top: 200;
+	border-radius: 10px;
+	border-radius: 1px black solid;
+	box-shadow: 3px 4px 4px;
+	background-color: grey;
+	color: white;
+}
+.Southbank {
+	border: 1px red solid;
+	height: 435px;
+	background-image: url("FotoperWeb/southb.jpg");
+	background-size: 100%;
+	border-radius: 10px;
+	box-shadow: 3px 4px 5px;
+}
+.SouthBank button {
+	font-size: 30px;
+	margin-left: 270px;
+	margin-top: 200;
+	border-radius: 10px;
+	border-radius: 1px black solid;
+	box-shadow: 3px 4px 4px;
+	background-color: grey;
+	color: white;
+}
+.BridgeAdventure{
+	border: 1px red solid;
+	height: 435px;
+	background-image: url("FotoperWeb/ba.jpg");
+	background-size: 100%;
+	border-radius: 10px;
+	box-shadow: 3px 4px 5px;
+}
+.BridgeAdventure button {
+font-size: 30px;
+	margin-left: 270px;
+	margin-top: 200;
+	border-radius: 10px;
+	border-radius: 1px black solid;
+	box-shadow: 3px 4px 4px;
+	background-color: grey;
+	color: white;
+}
+.FederationSquare {
+	border: 1px red solid;
+	height: 435px;
+	background-image: url("FotoperWeb/fs.jpg");
+	background-size: 100%;
+	border-radius: 10px;
+	box-shadow: 3px 4px 5px;
+}
+.FederationSquare button {
+	font-size: 30px;
+	margin-left: 270px;
+	margin-top: 200;
+	border-radius: 10px;
+	border-radius: 1px black solid;
+	box-shadow: 3px 4px 4px;
+	background-color: grey;
+	color: white;
+}
+.MuseumSport {
+	border: 1px red solid;
+	height: 435px;
+	background-image: url("FotoperWeb/sport.jpg");
+	background-size: 100%;
+	border-radius: 10px;
+	box-shadow: 3px 4px 5px;
+}
+.MuseumSport button {
+	font-size: 30px;
+	margin-left: 270px;
+	margin-top: 200;
+	border-radius: 10px;
+	border-radius: 1px black solid;
+	box-shadow: 3px 4px 4px;
+	background-color: grey;
+	color: white;
+}
+.MelbourneZoo {
+	border: 1px red solid;
+	height: 435px;
+	background-image: url("FotoperWeb/zoo.jpg");
+	background-size: 100%;
+	border-radius: 10px;
+	box-shadow: 3px 4px 5px;
+}
+.MelbourneZoo button {
+	font-size: 30px;
+	margin-left: 270px;
+	margin-top: 200;
+	border-radius: 10px;
+	border-radius: 1px black solid;
+	box-shadow: 3px 4px 4px;
+	background-color: grey;
+	color: white;
+}
+.YarraRiverCruis {
+	border: 1px red solid;
+	height: 435px;
+	background-image: url("FotoperWeb/river.jpg");
+	background-size: 100%;
+	border-radius: 10px;
+	box-shadow: 3px 4px 5px;
+}
+.YarraRiverCruis button {
+	font-size: 30px;
+	margin-left: 270px;
+	margin-top: 200;
+	border-radius: 10px;
+	border-radius: 1px black solid;
+	box-shadow: 3px 4px 4px;
+	background-color: grey;
+	color: white;
+}
+.Ushuaia {
+	border: 1px red solid;
+	height: 435px;
+	background-image: url("FotoperWeb/ushuaia.jpg");
+	background-size: 100%;
+	border-radius: 10px;
+	box-shadow: 3px 4px 5px;
+}
+.Ushuaia button {
+	font-size: 30px;
+	margin-left: 270px;
+	margin-top: 200;
+	border-radius: 10px;
+	border-radius: 1px black solid;
+	box-shadow: 3px 4px 4px;
+	background-color: grey;
+	color: white;
+}
+.ParadiseHarbour {
+	border: 1px red solid;
+	height: 435px;
+	background-image: url("FotoperWeb/ph.jpg");
+	background-size: 100%;
+	border-radius: 10px;
+	box-shadow: 3px 4px 5px;
+}
+.ParadiseHarbour button {
+	font-size: 30px;
+	margin-left: 270px;
+	margin-top: 200;
+	border-radius: 10px;
+	border-radius: 1px black solid;
+	box-shadow: 3px 4px 4px;
+	background-color: grey;
+	color: white;
+}
+.TheSouthShetlandIslands {
+	border: 1px red solid;
+	height: 435px;
+	background-image: url("FotoperWeb/tssi.jpg");
+	background-size: 100%;
+	border-radius: 10px;
+	box-shadow: 3px 4px 5px;
+}
+.TheSouthShetlandIslands button {
+	font-size: 30px;
+	margin-left: 270px;
+	margin-top: 200;
+	border-radius: 10px;
+	border-radius: 1px black solid;
+	box-shadow: 3px 4px 4px;
+	background-color: grey;
+	color: white;
+}
+.UshuaiatoAntarctica {
+	border: 1px red solid;
+	height: 435px;
+	background-image: url("FotoperWeb/uta.jpg");
+	background-size: 100%;
+	border-radius: 10px;
+	box-shadow: 3px 4px 5px;
+}
+.UshuaiatoAntarctica button {
+	font-size: 30px;
+	margin-left: 270px;
+	margin-top: 200;
+	border-radius: 10px;
+	border-radius: 1px black solid;
+	box-shadow: 3px 4px 4px;
+	background-color: grey;
+	color: white;
+}
+.TableMountain{
+	border: 1px red solid;
+	height: 435px;
+	background-image: url("FotoperWeb/tm.jpg");
+	background-size: 100%;
+	border-radius: 10px;
+	box-shadow: 3px 4px 5px;
+}
+.Tablemountain button {
+	font-size: 30px;
+	margin-left: 270px;
+	margin-top: 200;
+	border-radius: 10px;
+	border-radius: 1px black solid;
+	box-shadow: 3px 4px 4px;
+	background-color: grey;
+	color: white;
+}
+.RobbenIsland {
+	border: 1px red solid;
+	height: 435px;
+	background-image: url("FotoperWeb/ri.jpg");
+	background-size: 100%;
+	border-radius: 10px;
+	box-shadow: 3px 4px 5px;
+}
+.RobbenIsland button {
+	font-size: 30px;
+	margin-left: 270px;
+	margin-top: 200;
+	border-radius: 10px;
+	border-radius: 1px black solid;
+	box-shadow: 3px 4px 4px;
+	background-color: grey;
+	color: white;
+}
+.CityHall {
+	border: 1px red solid;
+	height: 435px;
+	background-image: url("FotoperWeb/ch.jpg");
+	background-size: 100%;
+	border-radius: 10px;
+	box-shadow: 3px 4px 5px;
+}
+.CityHall button {
+	font-size: 30px;
+	margin-left: 270px;
+	margin-top: 200;
+	border-radius: 10px;
+	border-radius: 1px black solid;
+	box-shadow: 3px 4px 4px;
+	background-color: grey;
+	color: white;
+}
+.CapePoint {
+	border: 1px red solid;
+	height: 435px;
+	background-image: url("FotoperWeb/cp.jpg");
+	background-size: 100%;
+	border-radius: 10px;
+	box-shadow: 3px 4px 5px;
+}
+.CapePoint button {
+	font-size: 30px;
+	margin-left: 270px;
+	margin-top: 200;
+	border-radius: 10px;
+	border-radius: 1px black solid;
+	box-shadow: 3px 4px 4px;
+	background-color: grey;
+	color: white;
+}
 .about {
 	border: 1px grey solid;
 	width: 100%;
